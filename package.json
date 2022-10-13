@@ -1,0 +1,19 @@
+{
+  "name": "foliolum",
+  "version": "1.0.0",
+  "description": "The Foliolum Component Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlqueckfeldt/foliolum.git"
+  },
+  "author": "Karl Queckfeldt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlqueckfeldt/foliolum/issues"
+  },
+  "homepage": "https://github.com/karlqueckfeldt/foliolum#readme"
+}
