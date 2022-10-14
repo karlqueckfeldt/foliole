@@ -1,0 +1,59 @@
+:root {
+  /* Base colors */
+  --primary-clr: rebeccapurple;
+  --secondary-clr: rgb(124, 114, 130);
+  --success-clr: rgb(92, 121, 57);
+  --warning-clr: rgb(240, 216, 76);
+  --danger-clr: rgb(177, 53, 53);
+  --light-clr: rgb(250, 250, 250);
+  --dark-clr: rgb(44, 44, 44);
+
+  /* Darker base colors */
+  --primary-darker-clr: rgb(91, 42, 140);
+  --secondary-darker-clr: rgb(107, 98, 113);
+  --success-darker-clr: rgb(83, 110, 50);
+  --warning-darker-clr: rgb(226, 202, 66);
+  --danger-darker-clr: rgb(160, 43, 43);
+  --light-darker-clr: rgb(222, 222, 222);
+  --dark-darker-clr: black;
+
+  /* Misc colors */
+  --opaque-clr: rgba(193, 193, 193, 0.521);
+  --button-gradient: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.08) 0%,
+      rgba(255, 255, 255, 0) 100%);
+  --disabled-clr: rgb(199, 195, 199);
+
+  /* Color applications */
+  --font-clr: var(--dark-clr);
+  --border-clr: var(--secondary-clr);
+  --link-clr: var(--primary-clr);
+  --link-hover-clr: var(--primary-darker-clr);
+  --bg-clr: var(--light-clr);
+  --radio-clr: var(--primary-clr);
+  --box-shadow-clr: var(--opaque-clr);
+  --primary-border-clr: var(--primary-darker-clr);
+  --secondary-border-clr: var(--secondary-darker-clr);
+  --success-border-clr: var(--success-darker-clr);
+  --warning-border-clr: var(--warning-darker-clr);
+  --danger-border-clr: var(--danger-darker-clr);
+  --light-border-clr: var(--light-darker-clr);
+  --dark-border-clr: var(--dark-darker-clr);
+  --primary-hover-clr: var(--primary-darker-clr);
+  --secondary-hover-clr: var(--secondary-darker-clr);
+  --success-hover-clr: var(--success-darker-clr);
+  --warning-hover-clr: var(--warning-darker-clr);
+  --danger-hover-clr: var(--danger-darker-clr);
+  --light-hover-clr: var(--light-darker-clr);
+  --dark-hover-clr: var(--dark-darker-clr);
+
+  /* Properties */
+  --spacing: 1rem;
+  --border-width: 1px;
+  --border: var(--border-width) solid var(--border-clr);
+  --button-border: calc(var(--border-width) / 2) solid var(--border-clr);
+  --radius: 4px;
+  --outer-box-shadow: 0 1px 4px 0 var(--box-shadow-clr);
+  --inner-box-shadow: inset 0 1px 4px 0 var(--box-shadow-clr);
+  --outline: 2px solid var(--primary-clr);
+}

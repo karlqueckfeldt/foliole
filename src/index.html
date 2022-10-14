@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" coéntent="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="index.css" />
     <title>Components</title>
   </head>
   <body>
@@ -40,31 +40,64 @@
 
         <section class="component">
           <h2>Text fields</h2>
-          <div>
-            <label class="form-label" for="text_input">Type something</label>
-            <input
-              id="text_input"
-              name="text_input"
-              type="text"
-              class="form-field"
-            />
+          <div class="text-fields">
+            <div>
+              <label class="form-label" for="text_input">Type something</label>
+              <input
+                id="text_input"
+                name="text_input"
+                type="text"
+                class="form-field"
+              />
+            </div>
+
+            <div>
+              <label class="form-label" for="disabled_text_input"
+                >No typing</label
+              >
+              <input
+                id="disabled_text_input"
+                name="disabled_text_input"
+                type="text"
+                class="form-field"
+                disabled
+              />
+            </div>
           </div>
         </section>
 
         <section class="component">
           <h2>Select</h2>
-          <div>
-            <label class="form-label" for="video-games-select">Games</label>
-            <select
-              id="video-games-select"
-              name="video-games-select"
-              class="form-select"
-            >
-              <option value="Age of Empires">Age of Empires</option>
-              <option value="Super Mario">Super Mario</option>
-              <option value="Tetris">Tetris</option>
-              <option value="World of Warcraft">World of Warcraft</option>
-            </select>
+          <div class="selects">
+            <div>
+              <label class="form-label" for="video-games-select">Games</label>
+              <select
+                id="video-games-select"
+                name="video-games-select"
+                class="form-select"
+              >
+                <option value="Age of Empires">Age of Empires</option>
+                <option value="Super Mario">Super Mario</option>
+                <option value="Tetris">Tetris</option>
+                <option value="World of Warcraft">World of Warcraft</option>
+              </select>
+            </div>
+            <div>
+              <label class="form-label" for="video-games-select"
+                >No games</label
+              >
+              <select
+                id="video-games-select"
+                name="video-games-select"
+                class="form-select"
+                disabled
+              >
+                <option value="Age of Empires">Age of Empires</option>
+                <option value="Super Mario">Super Mario</option>
+                <option value="Tetris" selected>Tetris</option>
+                <option value="World of Warcraft">World of Warcraft</option>
+              </select>
+            </div>
           </div>
         </section>
 
@@ -72,7 +105,7 @@
           <h2>Radio buttons</h2>
           <div>
             <fieldset class="form-fieldset">
-              <legend class="fieldset-legend">Animals</legend>
+              <legend class="form-fieldset-legend">Animals</legend>
               <div class="form-radio">
                 <input
                   class="form-radio-input"
@@ -119,7 +152,7 @@
           <h2>Checkboxes</h2>
           <div>
             <fieldset class="form-fieldset">
-              <legend class="fieldset-legend">Food</legend>
+              <legend class="form-fieldset-legend">Food</legend>
               <div class="form-check">
                 <input
                   class="form-check-input"

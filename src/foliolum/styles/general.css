@@ -1,0 +1,47 @@
+@import url("variables.css");
+
+body {
+  margin: 0;
+  background-color: var(--bg-clr);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--font-clr);
+}
+
+::-moz-selection {
+  color: var(--light-clr);
+  background: var(--dark-clr);
+}
+
+::selection {
+  color: var(--light-clr);
+  background: var(--dark-clr);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+input:focus-visible,
+button:focus-visible,
+a:focus-visible,
+select:focus-visible {
+  outline: var(--outline);
+}
+
+input,
+button,
+select {
+  font: inherit;
+  color: inherit;
+}

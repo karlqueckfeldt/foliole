@@ -1,0 +1,10 @@
+{
+  "name": "foliolum",
+  "version": "1.0.0",
+  "description": "The Foliolum component library",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karl Queckfeldt",
+  "license": "MIT"
+}

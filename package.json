@@ -1,7 +1,7 @@
 {
-  "name": "foliolum",
+  "name": "foliolum-site",
   "version": "1.0.0",
-  "description": "The Foliolum Component Library",
+  "description": "The Foliolum showcase site",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/karlqueckfeldt/foliolum/issues"
   },
-  "homepage": "https://github.com/karlqueckfeldt/foliolum#readme"
+  "homepage": "https://github.com/karlqueckfeldt/foliolum#readme",
+  "dependencies": {
+    "foliolum": "file:src/foliolum"
+  }
 }
