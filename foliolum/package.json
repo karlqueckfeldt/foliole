@@ -1,0 +1,23 @@
+{
+  "name": "foliolum",
+  "version": "0.0.1",
+  "description": "The Foliolum style library",
+  "main": "main.css",
+  "files": [
+    "styles/*.css",
+    "assets/*.svg"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlqueckfeldt/foliolum.git"
+  },
+  "author": "Karl Queckfeldt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlqueckfeldt/foliolum/issues"
+  },
+  "homepage": "https://github.com/karlqueckfeldt/foliolum#readme"
+}
