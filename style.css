@@ -20,13 +20,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: calc(var(--spacing) * 3);
-  width: clamp(320px, 80%, 85ch);
-}
-
-.component {
-  border: var(--border);
-  padding: var(--spacing);
-  border-radius: var(--radius);
+  width: clamp(320px, 80%, 95ch);
 }
 
 .buttons {

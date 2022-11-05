@@ -1,4 +1,4 @@
-@import url("variables.css");
+@import url('variables.css');
 
 .form-field,
 .form-select {
@@ -43,39 +43,22 @@
   position: relative;
   appearance: none;
   border-radius: 100px;
-  border: 2px solid var(--radio-clr);
-  width: 1.2em;
-  height: 1.2em;
+  outline: 2px solid var(--radio-clr);
+  outline-offset: 2px;
+  width: 0.8em;
+  height: 0.8em;
   transition: background-color 0.1s ease-in-out;
-}
-
-.form-radio-input::after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  content: '';
-  display: block;
-  height: 70%;
-  width: 70%;
-  border-radius: 100px;
-  background-color: var(--light-clr);
-  opacity: 0;
 }
 
 .form-radio-input:checked {
   background-color: var(--radio-clr);
 }
 
-.form-radio-input:checked::after {
-  opacity: 1;
-}
-
 .form-radio-input:disabled {
   border-color: var(--disabled-clr);
 }
 
-.form-radio-input:disabled+label {
+.form-radio-input:disabled + label {
   color: var(--disabled-clr);
 }
 
@@ -85,9 +68,9 @@
 
 .form-check-input {
   appearance: none;
-  height: 1em;
-  width: 1em;
-  border-radius: var(--radius);
+  height: 1.2em;
+  width: 1.2em;
+  border-radius: var(--checkbox-radius);
   background-color: var(--bg-clr);
   background-repeat: no-repeat;
   background-position: center;
@@ -96,26 +79,31 @@
   transition: background-color 0.1s ease-in-out;
 }
 
+.form-check-input::after {
+  -webkit-mask: url(../assets/check.svg) no-repeat 50% 50%;
+  mask: url(../assets/check.svg) no-repeat 50% 50%;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  content: '';
+  display: block;
+  height: 100%;
+  background-color: var(--light-clr);
+  opacity: 0;
+}
+
 .form-check-input:checked {
   background-color: var(--radio-clr);
 }
 
 .form-check-input:checked::after {
-  -webkit-mask: url(../assets/check.svg) no-repeat 50% 50%;
-  mask: url(../assets/check.svg) no-repeat 50% 50%;
-  -webkit-mask-size: cover;
-  mask-size: cover;
-  content: '';
-  display: block;
-  height: 100%;
-  background-color: var(--light-clr);
+  opacity: 1;
 }
 
 .form-check-input:disabled {
   border-color: var(--disabled-clr);
 }
 
-.form-check-input:disabled+label {
+.form-check-input:disabled + label {
   color: var(--disabled-clr);
 }
 

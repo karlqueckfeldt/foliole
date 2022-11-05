@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/karlqueckfeldt/foliolum#readme",
   "scripts": {
-    "dev": "vite",
+    "start": "vite --open",
     "build": "vite build",
     "preview": "vite preview"
   },

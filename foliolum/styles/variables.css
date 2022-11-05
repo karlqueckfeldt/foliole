@@ -15,13 +15,15 @@
   --warning-darker-clr: rgb(226, 202, 66);
   --danger-darker-clr: rgb(160, 43, 43);
   --light-darker-clr: rgb(222, 222, 222);
-  --dark-darker-clr: black;
+  --dark-darker-clr: rgb(15, 15, 15);
 
   /* Misc colors */
-  --opaque-clr: rgba(193, 193, 193, 0.521);
-  --button-gradient: linear-gradient(180deg,
-      rgba(255, 255, 255, 0.08) 0%,
-      rgba(255, 255, 255, 0) 100%);
+  --opaque-clr: rgba(167, 167, 167, 0.531);
+  --button-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
   --disabled-clr: rgb(199, 195, 199);
 
   /* Color applications */
@@ -51,9 +53,10 @@
   --spacing: 1rem;
   --border-width: 1px;
   --border: var(--border-width) solid var(--border-clr);
-  --button-border: calc(var(--border-width) / 2) solid var(--border-clr);
-  --radius: 4px;
-  --outer-box-shadow: 0 1px 4px 0 var(--box-shadow-clr);
+  --button-border: none;
+  --radius: 6px;
+  --checkbox-radius: 3px;
+  --outer-box-shadow: 0 2px 4px 0 var(--box-shadow-clr);
   --inner-box-shadow: inset 0 1px 4px 0 var(--box-shadow-clr);
-  --outline: 2px solid var(--primary-clr);
+  --outline: 2px solid rgba(102, 51, 153, 0.372);
 }

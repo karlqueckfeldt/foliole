@@ -1,4 +1,4 @@
-@import url("variables.css");
+@import url('variables.css');
 
 .button {
   cursor: pointer;
@@ -86,4 +86,14 @@
 
 .button-dark:hover {
   background-color: var(--dark-hover-clr);
+}
+
+.button-flat {
+  background-color: transparent;
+  border-color: none;
+  box-shadow: none;
+}
+
+.button-flat:hover {
+  background-color: var(--light-hover-clr);
 }
