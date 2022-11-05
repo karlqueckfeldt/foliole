@@ -1,1 +1,1 @@
-# The Foliolum showcase site
+# The Foliole showcase site

@@ -1,7 +1,7 @@
 @import url('variables.css');
 
 .card {
-  padding: calc(var(--spacing) * 2);
+  padding: var(--spacing) calc(var(--spacing) * 2);
   border-radius: var(--radius);
   box-shadow: var(--outer-box-shadow);
 }

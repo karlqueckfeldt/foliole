@@ -1,19 +1,19 @@
 {
-  "name": "foliolum-site",
+  "name": "foliole-site",
   "private": true,
   "version": "0.0.1",
-  "description": "The Foliolum showcase site",
+  "description": "The foliole showcase site",
   "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karlqueckfeldt/foliolum.git"
+    "url": "git+https://github.com/karlqueckfeldt/foliole.git"
   },
   "author": "Karl Queckfeldt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/karlqueckfeldt/foliolum/issues"
+    "url": "https://github.com/karlqueckfeldt/foliole/issues"
   },
-  "homepage": "https://github.com/karlqueckfeldt/foliolum#readme",
+  "homepage": "https://github.com/karlqueckfeldt/foliole#readme",
   "scripts": {
     "start": "vite --open",
     "build": "vite build",
@@ -23,6 +23,6 @@
     "vite": "^3.1.0"
   },
   "dependencies": {
-    "foliolum": "file:foliolum"
+    "foliole": "file:foliole"
   }
 }

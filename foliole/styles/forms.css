@@ -42,7 +42,7 @@
 .form-radio-input {
   position: relative;
   appearance: none;
-  border-radius: 100px;
+  border-radius: 9999999px;
   outline: 2px solid var(--radio-clr);
   outline-offset: 2px;
   width: 0.8em;
