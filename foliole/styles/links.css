@@ -1,9 +1,10 @@
-@import url("variables.css");
+@import url('variables.css');
 
-a {
-  color: var(--link-clr);
+.fo-link {
+  color: var(--fo-link-clr);
+  border-radius: var(--fo-button-radius);
 }
 
-a:hover {
-  color: var(--link-hover-clr);
+a.fo-button:active {
+  background-color: var(--fo-light-dark-clr);
 }

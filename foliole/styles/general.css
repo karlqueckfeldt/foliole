@@ -1,20 +1,20 @@
-@import url("variables.css");
+@import url('variables.css');
 
 body {
   margin: 0;
-  background-color: var(--bg-clr);
+  background-color: var(--fo-bg-clr);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--font-clr);
+  color: var(--fo-text-clr);
 }
 
 ::-moz-selection {
-  color: var(--light-clr);
-  background: var(--dark-clr);
+  color: var(--fo-light-text-clr);
+  background: var(--fo-secondary-clr);
 }
 
 ::selection {
-  color: var(--light-clr);
-  background: var(--dark-clr);
+  color: var(--fo-light-text-clr);
+  background: var(--fo-secondary-clr);
 }
 
 *,
@@ -36,7 +36,7 @@ input:focus-visible,
 button:focus-visible,
 a:focus-visible,
 select:focus-visible {
-  outline: var(--outline);
+  outline: var(--fo-outline);
 }
 
 input,

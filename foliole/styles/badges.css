@@ -1,0 +1,22 @@
+@import url('variables.css');
+
+.fo-badge {
+  font-size: 0.8em;
+  display: inline-block;
+  padding: calc(var(--fo-spacing) / 2) calc(var(--fo-spacing) / 2);
+  border-radius: 999999px;
+  box-shadow: var(--fo-box-shadow);
+  background-color: var(--fo-primary-clr);
+  color: var(--fo-light-text-clr);
+  height: fit-content;
+  width: fit-content;
+  line-height: 0.5;
+  align-self: start;
+}
+
+.fo-badge-outlined {
+  border: var(--fo-border);
+  box-shadow: none;
+  background-color: transparent;
+  color: var(--fo-text-clr);
+}

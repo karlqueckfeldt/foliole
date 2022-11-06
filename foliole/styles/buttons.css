@@ -1,99 +1,82 @@
 @import url('variables.css');
 
-.button {
-  cursor: pointer;
-  padding: calc(var(--spacing) / 2) var(--spacing);
-  background-color: var(--bg-clr);
-  border: var(--button-border);
-  border-radius: var(--radius);
-  box-shadow: var(--outer-box-shadow);
+.fo-button {
+  display: inline-block;
+  padding: calc(var(--fo-spacing) / 1.5) var(--fo-spacing);
+  background-color: var(--fo-bg-clr);
+  border: none;
+  border-radius: var(--fo-button-radius);
+  box-shadow: var(--fo-box-shadow);
   transition: box-shadow 0.1s ease-in-out;
+  line-height: 1;
 }
 
-.button:active {
+.fo-button:active {
   box-shadow: none;
 }
 
-.button-primary {
-  background-color: var(--primary-clr);
-  background: var(--button-gradient), var(--primary-clr);
+.fo-button-primary {
+  background-color: var(--fo-primary-clr);
+  background: var(--fo-primary-clr);
   border-color: var(--primary-border-clr);
-  color: var(--light-clr);
+  color: var(--fo-light-text-clr);
 }
 
-.button-primary:hover {
-  background-color: var(--primary-hover-clr);
+.fo-button-primary:hover {
+  background-color: var(--fo-primary-light-clr);
 }
 
-.button-secondary {
-  background-color: var(--secondary-clr);
-  background: var(--button-gradient), var(--secondary-clr);
+.fo-button-secondary {
+  background-color: var(--fo-secondary-clr);
+  background: var(--fo-secondary-clr);
   border-color: var(--secondary-border-clr);
-  color: var(--light-clr);
+  color: var(--fo-light-text-clr);
 }
 
-.button-secondary:hover {
-  background-color: var(--secondary-hover-clr);
+.fo-button-secondary:hover {
+  background-color: var(--fo-secondary-light-clr);
 }
 
-.button-success {
-  background-color: var(--success-clr);
-  background: var(--button-gradient), var(--success-clr);
-  border-color: var(--success-border-clr);
-  color: var(--light-clr);
-}
-
-.button-success:hover {
-  background-color: var(--success-hover-clr);
-}
-
-.button-warning {
-  background-color: var(--warning-clr);
-  background: var(--button-gradient), var(--warning-clr);
+.fo-button-warning {
+  background-color: var(--fo-warning-clr);
+  background: var(--fo-warning-clr);
   border-color: var(--warning-border-clr);
+  color: var(--fo-light-text-clr);
 }
 
-.button-warning:hover {
-  background-color: var(--warning-hover-clr);
+.fo-button-warning:hover {
+  background-color: var(--fo-warning-light-clr);
 }
 
-.button-danger {
-  background-color: var(--danger-clr);
-  background: var(--button-gradient), var(--danger-clr);
-  border-color: var(--danger-border-clr);
-  color: var(--light-clr);
-}
-
-.button-danger:hover {
-  background-color: var(--danger-hover-clr);
-}
-
-.button-light {
-  background-color: var(--light-clr);
+.fo-button-light {
+  background-color: var(--fo-light-clr);
   border-color: var(--light-border-clr);
 }
 
-.button-light:hover {
-  background-color: var(--light-hover-clr);
+.fo-button-light:hover,
+.fo-button-flat:hover,
+.fo-button-outlined:hover {
+  background-color: var(--fo-light-dark-clr);
 }
 
-.button-dark {
-  background-color: var(--dark-clr);
-  background: var(--button-gradient), var(--dark-clr);
+.fo-button-dark {
+  background-color: var(--fo-dark-clr);
+  background: var(--fo-dark-clr);
   border-color: var(--dark-border-clr);
-  color: var(--light-clr);
+  color: var(--fo-light-text-clr);
 }
 
-.button-dark:hover {
-  background-color: var(--dark-hover-clr);
+.fo-button-dark:hover {
+  background-color: var(--fo-dark-light-clr);
 }
 
-.button-flat {
+.fo-button-flat {
   background-color: transparent;
-  border-color: none;
+  border-color: transparent;
   box-shadow: none;
 }
 
-.button-flat:hover {
-  background-color: var(--light-hover-clr);
+.fo-button-outlined {
+  border: var(--fo-border);
+  box-shadow: none;
 }

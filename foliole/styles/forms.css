@@ -1,85 +1,76 @@
 @import url('variables.css');
 
-.form-field,
-.form-select {
-  border: var(--border);
-  border-radius: var(--radius);
-  padding: calc(var(--spacing) / 2);
+.fo-form-field,
+.fo-form-select {
+  border: var(--fo-border);
+  border-radius: var(--fo-input-radius);
+  padding: calc(var(--fo-spacing) / 2);
   display: block;
-  background-color: var(--light-clr);
+  background-color: var(--fo-light-clr);
 }
 
-.form-field {
-  box-shadow: var(--inner-box-shadow);
-}
-
-.form-field:disabled,
-.form-select:disabled {
-  background-color: var(--disabled-clr);
-  border-color: var(--disabled-clr);
+.fo-form-field:disabled,
+.fo-form-select:disabled {
+  background-color: var(--fo-disabled-clr);
+  border-color: var(--fo-disabled-clr);
   cursor: default;
   box-shadow: none;
 }
 
-.form-select {
-  box-shadow: var(--outer-box-shadow);
-  cursor: pointer;
-}
-
-.form-radio,
-.form-check {
+.fo-form-radio,
+.fo-form-check {
   display: flex;
   align-items: center;
-  margin-block-end: var(--spacing);
+  margin-block-end: var(--fo-spacing);
 }
 
-.form-radio-input,
-.form-check-input {
+.fo-form-radio-input,
+.fo-form-check-input {
   margin: 0;
-  margin-inline-end: calc(var(--spacing) / 2);
+  margin-inline-end: calc(var(--fo-spacing) / 2);
 }
 
-.form-radio-input {
+.fo-form-radio-input {
   position: relative;
   appearance: none;
   border-radius: 9999999px;
-  outline: 2px solid var(--radio-clr);
+  outline: calc(var(--fo-border-width) * 2) solid var(--fo-radio-clr);
   outline-offset: 2px;
   width: 0.8em;
   height: 0.8em;
   transition: background-color 0.1s ease-in-out;
 }
 
-.form-radio-input:checked {
-  background-color: var(--radio-clr);
+.fo-form-radio-input:checked {
+  background-color: var(--fo-radio-clr);
 }
 
-.form-radio-input:disabled {
-  border-color: var(--disabled-clr);
+.fo-form-radio-input:disabled {
+  outline-color: var(--fo-disabled-clr);
 }
 
-.form-radio-input:disabled + label {
-  color: var(--disabled-clr);
+.fo-form-radio-input:disabled + label {
+  color: var(--fo-disabled-clr);
 }
 
-.form-radio-input:disabled:checked {
-  background-color: var(--disabled-clr);
+.fo-form-radio-input:disabled:checked {
+  background-color: var(--fo-disabled-clr);
 }
 
-.form-check-input {
+.fo-form-check-input {
   appearance: none;
   height: 1.2em;
   width: 1.2em;
-  border-radius: var(--checkbox-radius);
-  background-color: var(--bg-clr);
+  border-radius: var(--fo-checkbox-radiuss);
+  background-color: var(--fo-bg-clr);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  border: 2px solid var(--radio-clr);
+  border: 2px solid var(--fo-radio-clr);
   transition: background-color 0.1s ease-in-out;
 }
 
-.form-check-input::after {
+.fo-form-check-input::after {
   -webkit-mask: url(../assets/check.svg) no-repeat 50% 50%;
   mask: url(../assets/check.svg) no-repeat 50% 50%;
   -webkit-mask-size: contain;
@@ -87,47 +78,47 @@
   content: '';
   display: block;
   height: 100%;
-  background-color: var(--light-clr);
+  background-color: var(--fo-light-clr);
   opacity: 0;
 }
 
-.form-check-input:checked {
-  background-color: var(--radio-clr);
+.fo-form-check-input:checked {
+  background-color: var(--fo-radio-clr);
 }
 
-.form-check-input:checked::after {
+.fo-form-check-input:checked::after {
   opacity: 1;
 }
 
-.form-check-input:disabled {
-  border-color: var(--disabled-clr);
+.fo-form-check-input:disabled {
+  border-color: var(--fo-disabled-clr);
 }
 
-.form-check-input:disabled + label {
-  color: var(--disabled-clr);
+.fo-form-check-input:disabled + label {
+  color: var(--fo-disabled-clr);
 }
 
-.form-check-input:disabled:checked {
-  background-color: var(--disabled-clr);
+.fo-form-check-input:disabled:checked {
+  background-color: var(--fo-disabled-clr);
 }
 
-.form-fieldset {
+.fo-form-fieldset {
   border: none;
   padding: 0;
   margin: 0;
 }
 
-.form-fieldset-legend,
-.form-label {
+.fo-form-fieldset-legend,
+.fo-form-label {
   padding: 0;
   display: block;
   width: fit-content;
 }
 
-.form-label {
-  margin-block-end: calc(var(--spacing) / 4);
+.fo-form-label {
+  margin-block-end: calc(var(--fo-spacing) / 4);
 }
 
-.form-fieldset-legend {
-  margin-block-end: calc(var(--spacing) / 2);
+.fo-form-fieldset-legend {
+  margin-block-end: calc(var(--fo-spacing) / 2);
 }
