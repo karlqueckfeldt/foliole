@@ -5,6 +5,6 @@
   border-radius: var(--fo-button-radius);
 }
 
-a.fo-button:active {
-  background-color: var(--fo-light-dark-clr);
+.fo-link:hover {
+  opacity: 0.8;
 }

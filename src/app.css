@@ -1,0 +1,41 @@
+@import 'foliole';
+
+:root {
+  scroll-padding-block-start: 10rem;
+}
+
+:root,
+body {
+  height: 100%;
+}
+
+.page-container {
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) 5fr;
+  margin-inline: auto;
+  max-width: 90rem;
+}
+
+main {
+  padding-block: calc(var(--fo-spacing) * 2);
+}
+
+.components-container {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--fo-spacing) * 3);
+  width: clamp(320px, 80%, 95ch);
+}
+
+.components {
+  display: flex;
+  gap: var(--fo-spacing);
+  flex-wrap: wrap;
+}
+
+.text-fields,
+.selects {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fo-spacing);
+}

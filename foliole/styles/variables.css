@@ -35,7 +35,7 @@
   --fo-border: var(--fo-border-width) solid var(--fo-border-clr);
   --fo-button-radius: 999999px;
   --fo-input-radius: 6px;
-  --fo-checkbox-radiuss: 3px;
+  --fo-checkbox-radius: 3px;
   --fo-card-radius: 18px;
   --fo-box-shadow: 0 2px 4px 0 var(--fo-box-shadow-clr);
   --fo-outline: 2px solid var(--fo-outline-clr);

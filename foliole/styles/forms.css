@@ -61,7 +61,7 @@
   appearance: none;
   height: 1.2em;
   width: 1.2em;
-  border-radius: var(--fo-checkbox-radiuss);
+  border-radius: var(--fo-checkbox-radius);
   background-color: var(--fo-bg-clr);
   background-repeat: no-repeat;
   background-position: center;
