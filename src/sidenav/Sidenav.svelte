@@ -1,37 +1,39 @@
+<script>
+  import { Link } from 'svelte-navigator';
+</script>
+
 <aside class="side-nav">
   <nav>
     <ul class="side-nav-list">
       <li>
-        <a class="fo-button fo-button-flat" href="#buttons_section">Buttons</a>
+        <Link to="buttons" class="fo-button fo-button-flat">Buttons</Link>
       </li>
       <li>
-        <a class="fo-button fo-button-flat" href="#links_section">Links</a>
+        <Link to="links" class="fo-button fo-button-flat">Links</Link>
       </li>
       <li>
-        <a class="fo-button fo-button-flat" href="#text_fields_section"
-          >Text fields</a
+        <Link to="text-fields" class="fo-button fo-button-flat"
+          >Text fields</Link
         >
       </li>
       <li>
-        <a class="fo-button fo-button-flat" href="#select_fields_section"
-          >Select fields</a
+        <Link to="select-fields" class="fo-button fo-button-flat"
+          >Select fields</Link
         >
       </li>
       <li>
-        <a class="fo-button fo-button-flat" href="#radio_buttons_section"
-          >Radio buttons</a
+        <Link to="radio-buttons" class="fo-button fo-button-flat"
+          >Radio buttons</Link
         >
       </li>
       <li>
-        <a class="fo-button fo-button-flat" href="#checkboxes_section"
-          >Checkboxes</a
-        >
+        <Link to="checkboxes" class="fo-button fo-button-flat">Checkboxes</Link>
       </li>
       <li>
-        <a class="fo-button fo-button-flat" href="#badges_section">Badges</a>
+        <Link to="badges" class="fo-button fo-button-flat">Badges</Link>
       </li>
       <li>
-        <a class="fo-button fo-button-flat" href="#cards_section">Cards</a>
+        <Link to="cards" class="fo-button fo-button-flat">Cards</Link>
       </li>
     </ul>
   </nav>
@@ -57,10 +59,5 @@
     display: block;
     margin: 0;
     padding: 0;
-  }
-
-  .side-nav-list li a {
-    color: var(--fo-dark-clr);
-    text-decoration: none;
   }
 </style>

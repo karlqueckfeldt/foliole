@@ -1,8 +1,12 @@
 <script>
   export let heading;
+
+  const getFragmentId = () => heading.replace(' ', '_').toLowerCase();
 </script>
 
-<section class="fo-card fo-card-bordered">
-  <h2 class="fo-display-text-md">{heading}</h2>
+<section>
+  <h2 class="fo-display-text-md" id="{getFragmentId()}_section">
+    {heading}
+  </h2>
   <slot />
 </section>
