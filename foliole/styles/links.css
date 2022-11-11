@@ -5,11 +5,7 @@
   border-radius: var(--fo-button-radius);
 }
 
-.fo-link:hover {
+.fo-link:hover,
+.fo-link:visited {
   opacity: 0.8;
-}
-
-a.fo-button {
-  text-decoration: none;
-  color: inherit;
 }

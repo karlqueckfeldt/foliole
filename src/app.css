@@ -1,30 +1,25 @@
 @import 'foliole';
 
 :root {
-  scroll-padding-block-start: 10rem;
+  --max-page-width: 82rem;
 }
 
 :root,
-body {
-  height: 100%;
+body,
+#app {
+  block-size: 100%;
 }
 
 .page-container {
   display: grid;
   grid-template-columns: minmax(150px, 1fr) 5fr;
   margin-inline: auto;
-  max-width: 90rem;
+  max-inline-size: var(--max-page-width);
+  min-block-size: 80%;
 }
 
 main {
   padding-block: calc(var(--fo-spacing) * 2);
-}
-
-.components-container {
-  display: flex;
-  flex-direction: column;
-  gap: calc(var(--fo-spacing) * 3);
-  width: clamp(320px, 80%, 95ch);
 }
 
 .components {

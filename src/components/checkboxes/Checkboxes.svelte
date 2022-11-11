@@ -1,5 +1,5 @@
 <script>
-  import ComponentContainer from '../component-container/ComponentContainer.svelte';
+  import ComponentContainer from '../../component-container/ComponentContainer.svelte';
 </script>
 
 <ComponentContainer heading="Checkboxes">
@@ -19,20 +19,20 @@
       <input
         class="fo-form-check-input"
         type="checkbox"
-        value="Pasta"
-        id="pasta"
+        value="Pancakes"
+        id="pancakes"
         name="food"
-      /><label for="pasta">Pasta</label>
+      /><label for="pancakes">Lasagna</label>
     </div>
     <div class="fo-form-check">
       <input
         class="fo-form-check-input"
         type="checkbox"
-        value="Pancakes"
-        id="pancakes"
+        value="Pasta"
+        id="pasta"
         name="food"
         disabled
-      /><label for="pancakes">Pancakes</label>
+      /><label for="pasta">Pizza</label>
     </div>
     <div class="fo-form-check">
       <input

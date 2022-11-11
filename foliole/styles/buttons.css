@@ -2,20 +2,28 @@
 
 .fo-button {
   display: inline-block;
-  padding: calc(var(--fo-spacing) / 1.5) var(--fo-spacing);
+  padding: calc(var(--fo-spacing) / 2) var(--fo-spacing);
   background-color: var(--fo-bg-clr);
   border: none;
   border-radius: var(--fo-button-radius);
   box-shadow: var(--fo-box-shadow);
   transition: box-shadow 0.1s ease-in-out;
-  line-height: 1;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+a.fo-button {
+  text-decoration: none;
+  color: inherit;
 }
 
 .fo-button:active {
   box-shadow: none;
 }
 
-.fo-button-primary {
+.fo-button-primary,
+a.fo-button[aria-current='page'],
+a.fo-button.fo-link-active {
   background-color: var(--fo-primary-clr);
   background: var(--fo-primary-clr);
   border-color: var(--primary-border-clr);
@@ -30,7 +38,6 @@
   background-color: var(--fo-secondary-clr);
   background: var(--fo-secondary-clr);
   border-color: var(--secondary-border-clr);
-  color: var(--fo-light-text-clr);
 }
 
 .fo-button-secondary:hover {
@@ -50,11 +57,10 @@
 
 .fo-button-light {
   background-color: var(--fo-light-clr);
-  border-color: var(--light-border-clr);
 }
 
 .fo-button-light:hover,
-.fo-button-flat:hover,
+.fo-button-basic:hover,
 .fo-button-outlined:hover {
   background-color: var(--fo-light-dark-clr);
 }
@@ -70,7 +76,7 @@
   background-color: var(--fo-dark-light-clr);
 }
 
-.fo-button-flat {
+.fo-button-basic {
   background-color: transparent;
   border-color: transparent;
   box-shadow: none;
@@ -79,4 +85,12 @@
 .fo-button-outlined {
   border: var(--fo-border);
   box-shadow: none;
+}
+
+.fo-button-lg {
+  font-size: 1.4rem;
+}
+
+.fo-button-sm {
+  font-size: 0.8rem;
 }

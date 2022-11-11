@@ -8,12 +8,10 @@ body {
 }
 
 ::-moz-selection {
-  color: var(--fo-light-text-clr);
   background: var(--fo-secondary-clr);
 }
 
 ::selection {
-  color: var(--fo-light-text-clr);
   background: var(--fo-secondary-clr);
 }
 
@@ -29,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
+  margin-block-start: 0;
 }
 
 h1,

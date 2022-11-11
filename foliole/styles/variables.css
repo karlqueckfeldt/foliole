@@ -1,15 +1,15 @@
 :root {
   /* Base colors */
-  --fo-primary-clr: rgb(17, 92, 34);
-  --fo-secondary-clr: rgb(189, 118, 190);
-  --fo-warning-clr: rgb(206, 28, 28);
+  --fo-primary-clr: rgb(22, 92, 38);
+  --fo-secondary-clr: rgb(118, 190, 135);
+  --fo-warning-clr: rgb(204, 83, 31);
   --fo-light-clr: rgb(250, 250, 250);
   --fo-dark-clr: rgb(32, 49, 41);
 
   /* Lighter base colors */
-  --fo-primary-light-clr: rgb(28, 110, 35);
-  --fo-secondary-light-clr: rgb(199, 134, 196);
-  --fo-warning-light-clr: rgb(218, 70, 57);
+  --fo-primary-light-clr: rgb(34, 106, 40);
+  --fo-secondary-light-clr: rgb(133, 198, 143);
+  --fo-warning-light-clr: rgb(223, 96, 61);
   --fo-dark-light-clr: rgb(44, 63, 52);
 
   /* Darker base colors */
@@ -32,7 +32,9 @@
   /* Properties */
   --fo-spacing: 1rem;
   --fo-border-width: 1px;
+  --fo-radio-border-width: calc(var(--fo-border-width) * 2);
   --fo-border: var(--fo-border-width) solid var(--fo-border-clr);
+  --fo-radio-border: var(--fo-radio-border-width) solid var(--fo-radio-clr);
   --fo-button-radius: 999999px;
   --fo-input-radius: 6px;
   --fo-checkbox-radius: 3px;

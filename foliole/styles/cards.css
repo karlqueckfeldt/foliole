@@ -11,7 +11,7 @@
   color: var(--fo-light-text-clr);
 }
 
-.fo-card-bordered {
+.fo-card-outlined {
   border: var(--fo-border);
   box-shadow: none;
 }

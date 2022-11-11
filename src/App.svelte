@@ -12,22 +12,24 @@
   import Sidenav from './sidenav/Sidenav.svelte';
 </script>
 
-<Header />;
+<Header />
 <Router>
   <div class="page-container">
     <Sidenav />
     <main>
       <h1 class="fo-display-text-lg">Components</h1>
-      <section class="components-container">
-        <Route path="buttons" component={Buttons} />
-        <Route path="links" component={Links} />
-        <Route path="text-fields" component={TextFields} />
-        <Route path="select-fields" component={SelectFields} />
-        <Route path="radio-buttons" component={RadioButtons} />
-        <Route path="checkboxes" component={Checkboxes} />
-        <Route path="badges" component={Badges} />
-        <Route path="cards" component={Cards} />
-      </section>
+      <Route path="buttons" component={Buttons} />
+      <Route path="links" component={Links} />
+      <Route path="text-fields" component={TextFields} />
+      <Route path="select-fields" component={SelectFields} />
+      <Route path="radio-buttons" component={RadioButtons} />
+      <Route path="checkboxes" component={Checkboxes} />
+      <Route path="badges" component={Badges} />
+      <Route path="cards" component={Cards} />
+      <!-- Spinner -->
+      <!-- Tabs -->
+      <!-- Breadcrumbs -->
+      <!-- Range -->
     </main>
   </div>
 </Router>

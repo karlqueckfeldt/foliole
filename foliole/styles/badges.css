@@ -6,12 +6,20 @@
   padding: calc(var(--fo-spacing) / 2) calc(var(--fo-spacing) / 2);
   border-radius: 999999px;
   box-shadow: var(--fo-box-shadow);
-  background-color: var(--fo-primary-clr);
-  color: var(--fo-light-text-clr);
-  height: fit-content;
-  width: fit-content;
+  block-size: fit-content;
+  inline-size: fit-content;
   line-height: 0.5;
   align-self: start;
+}
+
+.fo-badge-primary {
+  background-color: var(--fo-primary-clr);
+  color: var(--fo-light-text-clr);
+}
+
+.fo-badge-light {
+  background-color: var(--fo-light-clr);
+  color: var(--fo-text-clr);
 }
 
 .fo-badge-outlined {

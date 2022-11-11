@@ -32,41 +32,56 @@
 
 .fo-form-radio-input {
   position: relative;
+  -webkit-appearance: none;
   appearance: none;
+  background-color: transparent;
   border-radius: 9999999px;
-  outline: calc(var(--fo-border-width) * 2) solid var(--fo-radio-clr);
-  outline-offset: 2px;
-  width: 0.8em;
-  height: 0.8em;
+  inline-size: 1.37em;
+  block-size: 1.37em;
   transition: background-color 0.1s ease-in-out;
+  font: inherit;
+  color: currentColor;
+  border: var(--fo-radio-border);
+  display: grid;
+  place-content: center;
 }
 
-.fo-form-radio-input:checked {
-  background-color: var(--fo-radio-clr);
+.fo-form-radio-input::before {
+  content: '';
+  inline-size: 0.88em;
+  block-size: 0.88em;
+  border-radius: 9999999px;
+  transform: scale(0);
+  transition: 0.1s transform ease-in-out;
+  background-color: var(--fo-primary-clr);
+}
+
+.fo-form-radio-input:checked::before {
+  transform: scale(1);
 }
 
 .fo-form-radio-input:disabled {
-  outline-color: var(--fo-disabled-clr);
+  border-color: var(--fo-disabled-clr);
 }
 
 .fo-form-radio-input:disabled + label {
   color: var(--fo-disabled-clr);
 }
 
-.fo-form-radio-input:disabled:checked {
+.fo-form-radio-input:disabled:checked::before {
   background-color: var(--fo-disabled-clr);
 }
 
 .fo-form-check-input {
   appearance: none;
-  height: 1.2em;
-  width: 1.2em;
+  block-size: 1.2em;
+  inline-size: 1.2em;
   border-radius: var(--fo-checkbox-radius);
   background-color: var(--fo-bg-clr);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  border: 2px solid var(--fo-radio-clr);
+  border: var(--fo-radio-border);
   transition: background-color 0.1s ease-in-out;
 }
 
@@ -77,9 +92,10 @@
   mask-size: contain;
   content: '';
   display: block;
-  height: 100%;
+  block-size: 100%;
   background-color: var(--fo-light-clr);
-  opacity: 0;
+  transform: scale(0);
+  transition: transform 0.1s ease-in-out;
 }
 
 .fo-form-check-input:checked {
@@ -87,7 +103,7 @@
 }
 
 .fo-form-check-input:checked::after {
-  opacity: 1;
+  transform: scale(1);
 }
 
 .fo-form-check-input:disabled {
@@ -112,7 +128,7 @@
 .fo-form-label {
   padding: 0;
   display: block;
-  width: fit-content;
+  inline-size: fit-content;
 }
 
 .fo-form-label {

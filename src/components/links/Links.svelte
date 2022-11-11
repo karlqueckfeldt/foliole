@@ -1,12 +1,8 @@
 <script>
-  import ComponentContainer from '../component-container/ComponentContainer.svelte';
+  import ComponentContainer from '../../component-container/ComponentContainer.svelte';
 </script>
 
 <ComponentContainer heading="Links">
-  <a
-    class="fo-link"
-    href="https://www.google.com"
-    rel="noopener noreferrer"
-    target="_blank">Link to Google</a
-  >
+  <!-- svelte-ignore a11y-invalid-attribute -->
+  <a class="fo-link" href="#">A regular link</a>
 </ComponentContainer>

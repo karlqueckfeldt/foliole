@@ -1,6 +1,8 @@
 <header>
-  <h1>Foliole</h1>
-  <img src="foliole.svg" class="brand" alt="Foliole brand icon" />
+  <div class="header-content-wrapper">
+    <h1>Foliole</h1>
+    <img src="foliole.svg" class="brand" alt="Foliole brand icon" />
+  </div>
 </header>
 
 <style>
@@ -12,10 +14,15 @@
     top: 0;
     z-index: 9999;
     box-shadow: var(--fo-box-shadow);
-    min-height: 4rem;
+    min-block-size: 4rem;
+  }
+
+  .header-content-wrapper {
     display: flex;
     align-items: center;
     gap: calc(var(--fo-spacing) / 2);
+    max-inline-size: var(--max-page-width);
+    margin-inline: auto;
   }
 
   header h1 {
@@ -24,7 +31,7 @@
   }
 
   header .brand {
-    width: 2rem;
-    height: 2rem;
+    inline-size: 2rem;
+    block-size: 2rem;
   }
 </style>

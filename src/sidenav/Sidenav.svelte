@@ -6,34 +6,35 @@
   <nav>
     <ul class="side-nav-list">
       <li>
-        <Link to="buttons" class="fo-button fo-button-flat">Buttons</Link>
+        <Link to="buttons" class="fo-button fo-button-basic">Buttons</Link>
       </li>
       <li>
-        <Link to="links" class="fo-button fo-button-flat">Links</Link>
+        <Link to="links" class="fo-button fo-button-basic">Links</Link>
       </li>
       <li>
-        <Link to="text-fields" class="fo-button fo-button-flat"
+        <Link to="text-fields" class="fo-button fo-button-basic"
           >Text fields</Link
         >
       </li>
       <li>
-        <Link to="select-fields" class="fo-button fo-button-flat"
+        <Link to="select-fields" class="fo-button fo-button-basic"
           >Select fields</Link
         >
       </li>
       <li>
-        <Link to="radio-buttons" class="fo-button fo-button-flat"
+        <Link to="radio-buttons" class="fo-button fo-button-basic"
           >Radio buttons</Link
         >
       </li>
       <li>
-        <Link to="checkboxes" class="fo-button fo-button-flat">Checkboxes</Link>
+        <Link to="checkboxes" class="fo-button fo-button-basic">Checkboxes</Link
+        >
       </li>
       <li>
-        <Link to="badges" class="fo-button fo-button-flat">Badges</Link>
+        <Link to="badges" class="fo-button fo-button-basic">Badges</Link>
       </li>
       <li>
-        <Link to="cards" class="fo-button fo-button-flat">Cards</Link>
+        <Link to="cards" class="fo-button fo-button-basic">Cards</Link>
       </li>
     </ul>
   </nav>
