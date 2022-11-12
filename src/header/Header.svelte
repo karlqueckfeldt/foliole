@@ -7,9 +7,9 @@
 
 <style>
   header {
-    background-color: var(--fo-primary-clr);
+    /* background-color: var(--fo-primary-clr); */
     padding: var(--fo-spacing);
-    color: var(--fo-secondary-text-clr);
+    /* color: var(--fo-secondary-text-clr); */
     position: sticky;
     top: 0;
     z-index: 9999;

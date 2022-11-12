@@ -11,6 +11,7 @@
       <button class="fo-button fo-button-basic">Basic</button>
       <button class="fo-button fo-button-outlined">Outlined</button>
       <button class="fo-button fo-button-warning">Warning</button>
+      <button class="fo-button fo-button-flat">Flat</button>
       <!-- svelte-ignore a11y-invalid-attribute -->
       <a href="#" class="fo-button fo-button-flat">Link</a>
     </div>
@@ -28,7 +29,7 @@
       >
       <button class="fo-button fo-button-sm fo-button-warning">Warning</button>
       <!-- svelte-ignore a11y-invalid-attribute -->
-      <a href="#" class="fo-button fo-button-sm fo-button-flat">Link</a>
+      <a href="#" class="fo-button fo-button-sm fo-button-flat">Flat link</a>
     </div>
   </section>
 
@@ -44,7 +45,7 @@
       >
       <button class="fo-button fo-button-lg fo-button-warning">Warning</button>
       <!-- svelte-ignore a11y-invalid-attribute -->
-      <a href="#" class="fo-button fo-button-lg fo-button-flat">Link</a>
+      <a href="#" class="fo-button fo-button-lg fo-button-flat">Flat link</a>
     </div>
   </section>
 </ComponentContainer>

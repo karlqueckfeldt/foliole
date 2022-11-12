@@ -2,14 +2,14 @@
   /* Base colors */
   --fo-primary-clr: rgb(22, 92, 38);
   --fo-secondary-clr: rgb(214, 240, 222);
-  --fo-warning-clr: rgb(255, 46, 19);
+  --fo-warning-clr: rgb(255, 64, 38);
   --fo-light-clr: rgb(250, 250, 250);
   --fo-dark-clr: rgb(32, 49, 41);
 
   /* Lighter base colors */
   --fo-primary-light-clr: rgb(34, 106, 40);
   --fo-secondary-light-clr: rgb(227, 243, 229);
-  --fo-warning-light-clr: rgb(255, 69, 62);
+  --fo-warning-light-clr: rgb(255, 86, 80);
 
   /* Misc colors */
   --fo-disabled-clr: rgb(190, 190, 190);
