@@ -4,6 +4,7 @@
   padding: calc(var(--fo-spacing) * 2);
   border-radius: var(--fo-card-radius);
   box-shadow: var(--fo-box-shadow);
+  background-color: var(--fo-bg-clr);
 }
 
 .fo-card-primary {
@@ -13,10 +14,6 @@
 
 .fo-card-secondary {
   background-color: var(--fo-secondary-clr);
-}
-
-.fo-card-basic {
-  background-color: var(--fo-light-clr);
 }
 
 .fo-card-outlined {

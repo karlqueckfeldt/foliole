@@ -21,9 +21,14 @@ a.fo-button {
   box-shadow: none;
 }
 
+.fo-button-outlined:hover,
+.fo-button-flat:hover,
+.fo-button:hover {
+  background-color: var(--fo-secondary-clr);
+}
+
 .fo-button-primary {
   background-color: var(--fo-primary-clr);
-  background: var(--fo-primary-clr);
   border-color: var(--primary-border-clr);
   color: var(--fo-secondary-text-clr);
 }
@@ -36,16 +41,11 @@ a.fo-button {
 a.fo-button[aria-current='page'],
 a.fo-button.fo-link-active {
   background-color: var(--fo-secondary-clr);
-  background: var(--fo-secondary-clr);
   border-color: var(--secondary-border-clr);
 }
 
 .fo-button-secondary:hover {
   background-color: var(--fo-secondary-light-clr);
-}
-
-.fo-button-basic {
-  background-color: var(--fo-light-clr);
 }
 
 .fo-button-outlined {
@@ -55,7 +55,6 @@ a.fo-button.fo-link-active {
 
 .fo-button-warning {
   background-color: var(--fo-warning-clr);
-  background: var(--fo-warning-clr);
   border-color: var(--warning-border-clr);
   color: var(--fo-secondary-text-clr);
 }
@@ -68,12 +67,6 @@ a.fo-button.fo-link-active {
   background-color: transparent;
   border-color: transparent;
   box-shadow: none;
-}
-
-.fo-button-outlined:hover,
-.fo-button-flat:hover,
-.fo-button-basic:hover {
-  background-color: var(--fo-secondary-clr);
 }
 
 .fo-button-lg {

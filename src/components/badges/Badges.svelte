@@ -6,7 +6,7 @@
   <div class="components">
     <div class="fo-badge fo-badge-primary">Primary</div>
     <div class="fo-badge fo-badge-secondary">Secondary</div>
-    <div class="fo-badge fo-badge-basic">Basic</div>
+    <div class="fo-badge">Basic</div>
     <div class="fo-badge fo-badge-outlined">Outlined</div>
     <div class="fo-badge fo-badge-primary">4</div>
     <div class="fo-badge fo-badge-primary" />

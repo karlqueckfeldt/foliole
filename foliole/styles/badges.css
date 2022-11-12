@@ -4,6 +4,7 @@
   font-size: var(--fo-text-sm-size);
   display: inline-block;
   padding: calc(var(--fo-spacing) / 2) calc(var(--fo-spacing) / 2);
+  background-color: var(--fo-bg-clr);
   border-radius: 999999px;
   box-shadow: var(--fo-box-shadow);
   block-size: fit-content;
@@ -21,13 +22,8 @@
   background-color: var(--fo-secondary-clr);
 }
 
-.fo-badge-basic {
-  background-color: var(--fo-light-clr);
-}
-
 .fo-badge-outlined {
   border: var(--fo-border);
   box-shadow: none;
-  background-color: var(--fo-light-clr);
   color: var(--fo-primary-text-clr);
 }

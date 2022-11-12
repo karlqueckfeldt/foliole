@@ -6,7 +6,7 @@
   border-radius: var(--fo-input-radius);
   padding: calc(var(--fo-spacing) / 2);
   display: block;
-  background-color: var(--fo-light-clr);
+  background-color: var(--fo-bg-clr);
 }
 
 .fo-form-field:disabled,
@@ -93,7 +93,7 @@
   content: '';
   display: block;
   block-size: 100%;
-  background-color: var(--fo-light-clr);
+  background-color: var(--fo-bg-clr);
   transform: scale(0);
   transition: transform 0.1s ease-in-out;
 }

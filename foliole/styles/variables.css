@@ -1,15 +1,15 @@
 :root {
   /* Base colors */
   --fo-primary-clr: rgb(22, 92, 38);
-  --fo-secondary-clr: rgb(214, 240, 222);
-  --fo-warning-clr: rgb(255, 64, 38);
-  --fo-light-clr: rgb(250, 250, 250);
+  --fo-secondary-clr: rgb(204, 230, 212);
+  --fo-warning-clr: rgb(210 42 18);
+  --fo-light-clr: rgb(243, 248, 246);
   --fo-dark-clr: rgb(32, 49, 41);
 
   /* Lighter base colors */
   --fo-primary-light-clr: rgb(34, 106, 40);
-  --fo-secondary-light-clr: rgb(227, 243, 229);
-  --fo-warning-light-clr: rgb(255, 86, 80);
+  --fo-secondary-light-clr: rgb(222, 238, 225);
+  --fo-warning-light-clr: rgb(229, 52, 46);
 
   /* Misc colors */
   --fo-disabled-clr: rgb(190, 190, 190);

@@ -12,7 +12,7 @@
       <p class="fo-h3">Secondary</p>
       <p>This is a secondary card.</p>
     </div>
-    <div class="fo-card fo-card-basic">
+    <div class="fo-card">
       <p class="fo-h3">Basic</p>
       <p>This is a basic card.</p>
     </div>
