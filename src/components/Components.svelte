@@ -1,5 +1,5 @@
 <script>
-  import { Route } from 'svelte-navigator';
+  import { Link, Route } from 'svelte-navigator';
   import Badges from './badges/Badges.svelte';
   import Buttons from './buttons/Buttons.svelte';
   import Cards from './cards/Cards.svelte';
@@ -10,9 +10,11 @@
   import TextFields from './text-fields/TextFields.svelte';
 </script>
 
-<div class="fo-card fo-card-outlined">
-  <h1 class="fo-display-text-lg">Components</h1>
-</div>
+<Route>
+  <div class="fo-card fo-card-outlined">
+    <h1 class="fo-display-text-lg">Components</h1>
+  </div>
+</Route>
 <Route path="buttons">
   <Buttons />
 </Route>

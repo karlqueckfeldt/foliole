@@ -2,6 +2,7 @@
 
 :root {
   --max-page-width: 82rem;
+  padding-inline: var(--fo-spacing);
 }
 
 :root,
@@ -16,6 +17,7 @@ body,
   margin-inline: auto;
   max-inline-size: var(--max-page-width);
   min-block-size: 80%;
+  gap: var(--fo-spacing);
 }
 
 main {
