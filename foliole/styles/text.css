@@ -12,7 +12,8 @@
 .fo-h3,
 .fo-h4,
 .fo-h5,
-.fo-h6 {
+.fo-h6,
+.fo-display-text-lg .fo-display-text-md {
   display: block;
   font-weight: bold;
 }

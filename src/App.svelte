@@ -1,14 +1,8 @@
 <script>
   import { Route, Router } from 'svelte-navigator';
-  import Badges from './components/badges/Badges.svelte';
-  import Buttons from './components/buttons/Buttons.svelte';
-  import Cards from './components/cards/Cards.svelte';
-  import Checkboxes from './components/checkboxes/Checkboxes.svelte';
-  import Links from './components/links/Links.svelte';
-  import RadioButtons from './components/radio-buttons/RadioButtons.svelte';
-  import SelectFields from './components/select-fields/SelectFields.svelte';
-  import TextFields from './components/text-fields/TextFields.svelte';
+  import Components from './components/Components.svelte';
   import Header from './header/Header.svelte';
+  import Home from './home/Home.svelte';
   import Sidenav from './sidenav/Sidenav.svelte';
 </script>
 
@@ -17,19 +11,13 @@
   <div class="page-container">
     <Sidenav />
     <main>
-      <h1 class="fo-display-text-lg">Components</h1>
-      <Route path="buttons" component={Buttons} />
-      <Route path="links" component={Links} />
-      <Route path="text-fields" component={TextFields} />
-      <Route path="select-fields" component={SelectFields} />
-      <Route path="radio-buttons" component={RadioButtons} />
-      <Route path="checkboxes" component={Checkboxes} />
-      <Route path="badges" component={Badges} />
-      <Route path="cards" component={Cards} />
-      <!-- Spinner -->
-      <!-- Tabs -->
-      <!-- Breadcrumbs -->
-      <!-- Range -->
+      <Route path="/">
+        <Home />
+      </Route>
+      <Route path="components">
+        <Components />
+      </Route>
+      <Route><h1 class="fo-display-text-lg">😔</h1></Route>
     </main>
   </div>
 </Router>

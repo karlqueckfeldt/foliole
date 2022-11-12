@@ -8,11 +8,12 @@ body {
 }
 
 ::-moz-selection {
-  background: var(--fo-secondary-clr);
+  background: var(--fo-primary-text-clr);
+  color: var(--fo-secondary-text-clr);
 }
-
 ::selection {
-  background: var(--fo-secondary-clr);
+  background: var(--fo-primary-text-clr);
+  color: var(--fo-secondary-text-clr);
 }
 
 *,
