@@ -4,7 +4,7 @@ body {
   margin: 0;
   background-color: var(--fo-bg-clr);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--fo-text-clr);
+  color: var(--fo-primary-text-clr);
 }
 
 ::-moz-selection {

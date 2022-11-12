@@ -76,7 +76,7 @@
   appearance: none;
   block-size: 1.2em;
   inline-size: 1.2em;
-  border-radius: var(--fo-checkbox-radius);
+  border-radius: var(--fo-input-radius);
   background-color: var(--fo-bg-clr);
   background-repeat: no-repeat;
   background-position: center;

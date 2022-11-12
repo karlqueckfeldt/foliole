@@ -1,7 +1,7 @@
 @import url('variables.css');
 
 .fo-badge {
-  font-size: 0.8em;
+  font-size: var(--fo-text-sm-size);
   display: inline-block;
   padding: calc(var(--fo-spacing) / 2) calc(var(--fo-spacing) / 2);
   border-radius: 999999px;
@@ -14,17 +14,20 @@
 
 .fo-badge-primary {
   background-color: var(--fo-primary-clr);
-  color: var(--fo-light-text-clr);
+  color: var(--fo-secondary-text-clr);
 }
 
-.fo-badge-light {
+.fo-badge-secondary {
+  background-color: var(--fo-secondary-clr);
+}
+
+.fo-badge-basic {
   background-color: var(--fo-light-clr);
-  color: var(--fo-text-clr);
 }
 
 .fo-badge-outlined {
   border: var(--fo-border);
   box-shadow: none;
-  background-color: transparent;
-  color: var(--fo-text-clr);
+  background-color: var(--fo-light-clr);
+  color: var(--fo-primary-text-clr);
 }

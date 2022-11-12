@@ -8,7 +8,15 @@
 
 .fo-card-primary {
   background-color: var(--fo-primary-clr);
-  color: var(--fo-light-text-clr);
+  color: var(--fo-secondary-text-clr);
+}
+
+.fo-card-secondary {
+  background-color: var(--fo-secondary-clr);
+}
+
+.fo-card-basic {
+  background-color: var(--fo-light-clr);
 }
 
 .fo-card-outlined {

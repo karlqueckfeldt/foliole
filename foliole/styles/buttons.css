@@ -21,20 +21,20 @@ a.fo-button {
   box-shadow: none;
 }
 
-.fo-button-primary,
-a.fo-button[aria-current='page'],
-a.fo-button.fo-link-active {
+.fo-button-primary {
   background-color: var(--fo-primary-clr);
   background: var(--fo-primary-clr);
   border-color: var(--primary-border-clr);
-  color: var(--fo-light-text-clr);
+  color: var(--fo-secondary-text-clr);
 }
 
 .fo-button-primary:hover {
   background-color: var(--fo-primary-light-clr);
 }
 
-.fo-button-secondary {
+.fo-button-secondary,
+a.fo-button[aria-current='page'],
+a.fo-button.fo-link-active {
   background-color: var(--fo-secondary-clr);
   background: var(--fo-secondary-clr);
   border-color: var(--secondary-border-clr);
@@ -44,42 +44,8 @@ a.fo-button.fo-link-active {
   background-color: var(--fo-secondary-light-clr);
 }
 
-.fo-button-warning {
-  background-color: var(--fo-warning-clr);
-  background: var(--fo-warning-clr);
-  border-color: var(--warning-border-clr);
-  color: var(--fo-light-text-clr);
-}
-
-.fo-button-warning:hover {
-  background-color: var(--fo-warning-light-clr);
-}
-
-.fo-button-light {
-  background-color: var(--fo-light-clr);
-}
-
-.fo-button-light:hover,
-.fo-button-basic:hover,
-.fo-button-outlined:hover {
-  background-color: var(--fo-light-dark-clr);
-}
-
-.fo-button-dark {
-  background-color: var(--fo-dark-clr);
-  background: var(--fo-dark-clr);
-  border-color: var(--dark-border-clr);
-  color: var(--fo-light-text-clr);
-}
-
-.fo-button-dark:hover {
-  background-color: var(--fo-dark-light-clr);
-}
-
 .fo-button-basic {
-  background-color: transparent;
-  border-color: transparent;
-  box-shadow: none;
+  background-color: var(--fo-light-clr);
 }
 
 .fo-button-outlined {
@@ -87,10 +53,33 @@ a.fo-button.fo-link-active {
   box-shadow: none;
 }
 
+.fo-button-warning {
+  background-color: var(--fo-warning-clr);
+  background: var(--fo-warning-clr);
+  border-color: var(--warning-border-clr);
+  color: var(--fo-secondary-text-clr);
+}
+
+.fo-button-warning:hover {
+  background-color: var(--fo-warning-light-clr);
+}
+
+.fo-button-flat {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.fo-button-outlined:hover,
+.fo-button-flat:hover,
+.fo-button-basic:hover {
+  background-color: var(--fo-secondary-clr);
+}
+
 .fo-button-lg {
-  font-size: 1.4rem;
+  font-size: var(--fo-text-lg-size);
 }
 
 .fo-button-sm {
-  font-size: 0.8rem;
+  font-size: var(--fo-text-sm-size);
 }
