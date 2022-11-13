@@ -13,6 +13,10 @@
 <Route>
   <div class="fo-card fo-card-primary">
     <h1 class="fo-display-text-lg">Components</h1>
+    <p class="fo-lead-text">
+      Foliole includes a small collection of components implemented with custom
+      CSS properties and classes.
+    </p>
   </div>
 </Route>
 <Route path="buttons">
@@ -42,4 +46,10 @@
 <!-- Spinner -->
 <!-- Tabs -->
 <!-- Breadcrumbs -->
+
 <!-- Range -->
+<style>
+  p {
+    max-inline-size: 70ch;
+  }
+</style>

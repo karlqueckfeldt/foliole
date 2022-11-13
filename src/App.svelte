@@ -15,7 +15,7 @@
       <Route path="components/*">
         <Components />
       </Route>
-      <Route><h1 class="fo-display-text-lg">😔</h1></Route>
+      <Route><h1 class="fo-display-text-lg">☹︎</h1></Route>
     </main>
   </Router>
 </div>

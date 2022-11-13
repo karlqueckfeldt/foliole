@@ -1,5 +1,5 @@
 <script>
-  import ComponentContainer from '../../component-container/ComponentContainer.svelte';
+  import ComponentContainer from '../component-container/ComponentContainer.svelte';
 </script>
 
 <ComponentContainer heading="Cards">

@@ -7,6 +7,10 @@
   font-size: var(--fo-display-text-md-size);
 }
 
+.fo-lead-text {
+  font-size: var(--fo-h3-size);
+}
+
 .fo-h1,
 .fo-h2,
 .fo-h3,
@@ -49,7 +53,19 @@
   margin-block-end: 2.33em;
 }
 
-.fo-code {
+.fo-code-block {
   background-color: var(--fo-secondary-clr);
   color: var(--fo-primary-text-clr);
+  border-radius: var(--fo-code-radius);
+  padding: calc(var(--fo-spacing) / 2);
+}
+
+.fo-text-center {
+  text-align: center;
+}
+.fo-text-left {
+  text-align: left;
+}
+.fo-text-right {
+  text-align: right;
 }

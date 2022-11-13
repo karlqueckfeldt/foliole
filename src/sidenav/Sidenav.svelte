@@ -5,7 +5,7 @@
 
 <aside class="side-nav">
   <img
-    src="foliole.svg"
+    src="/assets/foliole.svg"
     alt="Foliole brand icon"
     class="fo-padding-left-1 fo-padding-bottom-1"
   />
@@ -13,7 +13,7 @@
     {#if $location.pathname !== '/'}
       <ul class="side-nav-list">
         <li>
-          <Link to="/" class="fo-button fo-button-flat">{'← Go back'}</Link>
+          <Link to="/" class="fo-button fo-button-flat">{'← Go to Home'}</Link>
         </li>
       </ul>
     {/if}
@@ -23,6 +23,10 @@
         <li>
           <Link to="components/" class="fo-button fo-button-flat"
             >Components</Link
+          >
+        </li>
+        <li>
+          <Link to="utilities/" class="fo-button fo-button-flat">Utilities</Link
           >
         </li>
       </ul>

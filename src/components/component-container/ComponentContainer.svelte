@@ -3,8 +3,8 @@
 </script>
 
 <section>
-  <h2 class="fo-display-text-md">
+  <h1>
     {heading}
-  </h2>
+  </h1>
   <slot />
 </section>

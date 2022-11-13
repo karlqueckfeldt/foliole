@@ -5,6 +5,7 @@ body {
   background-color: var(--fo-bg-clr);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--fo-primary-text-clr);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 ::-moz-selection {
@@ -39,6 +40,25 @@ h5,
 h6,
 p {
   line-height: 1;
+}
+
+h1 {
+  font-size: var(--fo-h1-size);
+}
+h2 {
+  font-size: var(--fo-h2-size);
+}
+h3 {
+  font-size: var(--fo-h3-size);
+}
+h4 {
+  font-size: var(--fo-h4-size);
+}
+h5 {
+  font-size: var(--fo-h5-size);
+}
+h6 {
+  font-size: var(--fo-h6-size);
 }
 
 input:focus-visible,
