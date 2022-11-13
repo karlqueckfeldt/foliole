@@ -1,6 +1,6 @@
-<div class="fo-card fo-card-primary fo-text-center">
+<div class="fo-card fo-card-secondary fo-text-center">
   <h1 class="fo-display-text-lg">
-    Foliole <img src="/assets/foliole_inverted.svg" alt="Foliole brand" />
+    Foliole <img src="/assets/foliole_no_fill.svg" alt="Foliole brand" />
   </h1>
   <div class="fo-lead-text">
     <p>Welcome to Foliole! A simple component library and style guide.</p>

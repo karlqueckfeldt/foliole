@@ -16,7 +16,6 @@
   cursor: default;
   box-shadow: none;
   opacity: 1;
-  color: var(--fo-opaque-clr);
 }
 
 .fo-form-radio,

@@ -11,7 +11,7 @@
 </script>
 
 <Route>
-  <div class="fo-card fo-card-primary">
+  <div class="fo-card fo-card-secondary">
     <h1 class="fo-display-text-lg">Components</h1>
     <p class="fo-lead-text">
       Foliole includes a small collection of components implemented with custom

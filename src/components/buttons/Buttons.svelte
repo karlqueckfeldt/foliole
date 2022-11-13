@@ -3,7 +3,7 @@
 </script>
 
 <ComponentContainer heading="Buttons">
-  <section class="fo-margin-bottom-8">
+  <section class="fo-margin-bottom-3">
     <h3>Regular buttons</h3>
     <div class="components">
       <button class="fo-button fo-button-primary">Primary</button>
@@ -17,7 +17,7 @@
     </div>
   </section>
 
-  <section class="fo-margin-bottom-8">
+  <section class="fo-margin-bottom-3">
     <h3>Small buttons</h3>
     <div class="components">
       <button class="fo-button fo-button-sm fo-button-primary">Primary</button>
