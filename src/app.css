@@ -11,6 +11,10 @@ body,
   block-size: 100%;
 }
 
+:where(h1, h2, h3, h4, h5, h6):focus {
+  outline: none;
+}
+
 .page-container {
   display: grid;
   grid-template-columns: minmax(150px, 1fr) 5fr;

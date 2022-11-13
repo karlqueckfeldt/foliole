@@ -11,7 +11,7 @@
 </script>
 
 <Route>
-  <div class="fo-card fo-card-outlined">
+  <div class="fo-card fo-card-primary">
     <h1 class="fo-display-text-lg">Components</h1>
   </div>
 </Route>

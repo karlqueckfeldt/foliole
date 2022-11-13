@@ -4,7 +4,11 @@
 </script>
 
 <aside class="side-nav">
-  <img src="foliole.svg" alt="Foliole brand icon" class="fo-padding-left-1" />
+  <img
+    src="foliole.svg"
+    alt="Foliole brand icon"
+    class="fo-padding-left-1 fo-padding-bottom-1"
+  />
   <nav>
     {#if $location.pathname !== '/'}
       <ul class="side-nav-list">

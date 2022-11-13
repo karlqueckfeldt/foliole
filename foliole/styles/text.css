@@ -48,3 +48,8 @@
   margin-block-start: 0;
   margin-block-end: 2.33em;
 }
+
+.fo-code {
+  background-color: var(--fo-secondary-clr);
+  color: var(--fo-primary-text-clr);
+}
