@@ -2,7 +2,7 @@
   import CodeViewer from '../../code-viewer/CodeViewer.svelte';
   import ComponentContainer from '../../component-container/ComponentContainer.svelte';
 
-  const textFieldsCode = `<label class="fo-form-label" for="text_input">Type something</label>
+  const textFieldsCode = `<label class="fo-form-label" for="text_input">Text field</label>
 <input
   id="text_input"
   name="text_input"
@@ -24,7 +24,7 @@
 <ComponentContainer heading="Text fields">
   <div class="text-fields">
     <div>
-      <label class="fo-form-label" for="text_input">Type something</label>
+      <label class="fo-form-label" for="text_input">Text field</label>
       <input
         id="text_input"
         name="text_input"

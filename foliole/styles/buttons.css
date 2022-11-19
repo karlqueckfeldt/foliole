@@ -17,7 +17,12 @@ a.fo-button {
   color: inherit;
 }
 
-.fo-button:active {
+.fo-button:disabled {
+  pointer-events: none;
+}
+
+.fo-button:active,
+.fo-button:disabled {
   box-shadow: none;
 }
 
@@ -75,4 +80,8 @@ a.fo-button.fo-link-active {
 
 .fo-button-sm {
   font-size: var(--fo-text-sm-size);
+}
+
+.fo-button:disabled {
+  opacity: 0.7;
 }

@@ -28,6 +28,13 @@
 <button class="fo-button fo-button-lg fo-button-warning">Warning</button>
 <button class="fo-button fo-button-lg fo-button-flat">Flat</button>
 <a href="#" class="fo-button fo-button-lg fo-button-flat">Link</a>`;
+
+  const disabledButtonsCode = `<button class="fo-button fo-button-primary" disabled>Primary</button>
+<button class="fo-button fo-button-secondary" disabled>Secondary</button>
+<button class="fo-button" disabled>Basic</button>
+<button class="fo-button fo-button-outlined" disabled>Outlined</button>
+<button class="fo-button fo-button-warning" disabled>Warning</button>
+<button class="fo-button fo-button-flat" disabled>Flat</button>`;
 </script>
 
 <ComponentContainer heading="Buttons">
@@ -66,7 +73,7 @@
     <CodeViewer code={smallButtonsCode} />
   </section>
 
-  <section>
+  <section class="fo-margin-bottom-3">
     <h3>Large buttons</h3>
     <div class="components">
       <button class="fo-button fo-button-lg fo-button-primary">Primary</button>
@@ -83,5 +90,19 @@
     </div>
 
     <CodeViewer code={largeButtonsCode} />
+  </section>
+
+  <section>
+    <h3>Disabled buttons</h3>
+    <div class="components">
+      <button class="fo-button fo-button-primary" disabled>Primary</button>
+      <button class="fo-button fo-button-secondary" disabled>Secondary</button>
+      <button class="fo-button" disabled>Basic</button>
+      <button class="fo-button fo-button-outlined" disabled>Outlined</button>
+      <button class="fo-button fo-button-warning" disabled>Warning</button>
+      <button class="fo-button fo-button-flat" disabled>Flat</button>
+    </div>
+
+    <CodeViewer code={disabledButtonsCode} />
   </section>
 </ComponentContainer>

@@ -1,5 +1,6 @@
 <script>
   import { Link, Route } from 'svelte-navigator';
+  import ComponentCard from '../component-card/ComponentCard.svelte';
   import Badges from '../component-pages/badges/Badges.svelte';
   import Buttons from '../component-pages/buttons/Buttons.svelte';
   import Cards from '../component-pages/cards/Cards.svelte';
@@ -18,6 +19,17 @@
       CSS properties and classes.
     </p>
   </div>
+
+  <!-- <div class="component-cards fo-margin-top-2">
+    <ComponentCard />
+    <ComponentCard />
+    <ComponentCard />
+    <ComponentCard />
+    <ComponentCard />
+    <ComponentCard />
+    <ComponentCard />
+    <ComponentCard />
+  </div> -->
 </Route>
 <Route path="buttons">
   <Buttons />
@@ -51,5 +63,11 @@
 <style>
   p {
     max-inline-size: 70ch;
+  }
+
+  .component-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: calc(var(--fo-spacing) * 2);
   }
 </style>

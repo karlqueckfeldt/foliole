@@ -38,6 +38,9 @@
   --fo-box-shadow: 0 2px 4px 0 var(--fo-box-shadow-clr);
   --fo-outline: 2px solid var(--fo-outline-clr);
 
+  /* Font family */
+  --fo-font-family: 'Inter', sans-serif;
+
   /* Font sizes */
   --fo-h1-size: 2.5rem;
   --fo-h2-size: 2rem;

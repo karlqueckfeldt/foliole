@@ -3,9 +3,8 @@
 body {
   margin: 0;
   background-color: var(--fo-bg-clr);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--fo-primary-text-clr);
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: var(--fo-font-family);
 }
 
 ::-moz-selection {

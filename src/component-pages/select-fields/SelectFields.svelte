@@ -2,7 +2,7 @@
   import CodeViewer from '../../code-viewer/CodeViewer.svelte';
   import ComponentContainer from '../../component-container/ComponentContainer.svelte';
   const selectCode = `<label class="fo-form-label" for="video_games_select">
-    Select something
+    Select field
 </label>
 <select
   id="video_games_select"
@@ -33,9 +33,7 @@
 <ComponentContainer heading="Select fields">
   <div class="selects">
     <div>
-      <label class="fo-form-label" for="video_games_select"
-        >Select something</label
-      >
+      <label class="fo-form-label" for="video_games_select">Select field</label>
       <select
         id="video_games_select"
         name="video_games_select"
