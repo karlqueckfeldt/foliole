@@ -74,3 +74,9 @@ select {
   font: inherit;
   color: inherit;
 }
+
+pre,
+code {
+  margin: 0;
+  padding: 0;
+}

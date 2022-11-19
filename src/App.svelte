@@ -1,6 +1,6 @@
 <script>
   import { Route, Router } from 'svelte-navigator';
-  import Components from './components/Components.svelte';
+  import Components from './components-overview/Components.svelte';
   import Home from './home/Home.svelte';
   import Sidenav from './sidenav/Sidenav.svelte';
 </script>

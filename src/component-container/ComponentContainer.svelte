@@ -3,7 +3,7 @@
 </script>
 
 <section class="fo-card">
-  <h1>
+  <h1 class="fo-display-text-md">
     {heading}
   </h1>
   <slot />

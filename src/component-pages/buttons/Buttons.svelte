@@ -1,5 +1,33 @@
 <script>
-  import ComponentContainer from '../component-container/ComponentContainer.svelte';
+  import CodeViewer from '../../code-viewer/CodeViewer.svelte';
+  import ComponentContainer from '../../component-container/ComponentContainer.svelte';
+
+  const regularButtonsCode = `<!-- 🍂 Regular buttons 🍂 -->
+<button class="fo-button fo-button-primary">Primary</button>
+<button class="fo-button fo-button-secondary">Secondary</button>
+<button class="fo-button">Basic</button>
+<button class="fo-button fo-button-outlined">Outlined</button>
+<button class="fo-button fo-button-warning">Warning</button>
+<button class="fo-button fo-button-flat">Flat</button>
+<a href="#" class="fo-button fo-button-flat">Link</a>`;
+
+  const smallButtonsCode = `<!-- 🍂 Small buttons 🍂 -->
+<button class="fo-button fo-button-sm fo-button-primary">Primary</button>
+<button class="fo-button fo-button-sm fo-button-secondary">Secondary</button>
+<button class="fo-button fo-button-sm">Basic</button>
+<button class="fo-button fo-button-sm fo-button-outlined">Outlined</button>
+<button class="fo-button fo-button-sm fo-button-warning">Warning</button>
+<button class="fo-button fo-button-sm fo-button-flat">Flat</button>
+<a href="#" class="fo-button fo-button-sm fo-button-flat">Link</a>`;
+
+  const largeButtonsCode = `<!-- 🍂 Large buttons 🍂 -->
+<button class="fo-button fo-button-lg fo-button-primary">Primary</button>
+<button class="fo-button fo-button-lg fo-button-secondary">Secondary</button>
+<button class="fo-button fo-button-lg">Basic</button>
+<button class="fo-button fo-button-lg fo-button-outlined">Outlined</button>
+<button class="fo-button fo-button-lg fo-button-warning">Warning</button>
+<button class="fo-button fo-button-lg fo-button-flat">Flat</button>
+<a href="#" class="fo-button fo-button-lg fo-button-flat">Link</a>`;
 </script>
 
 <ComponentContainer heading="Buttons">
@@ -15,6 +43,8 @@
       <!-- svelte-ignore a11y-invalid-attribute -->
       <a href="#" class="fo-button fo-button-flat">Link</a>
     </div>
+
+    <CodeViewer code={regularButtonsCode} />
   </section>
 
   <section class="fo-margin-bottom-3">
@@ -32,6 +62,8 @@
       <!-- svelte-ignore a11y-invalid-attribute -->
       <a href="#" class="fo-button fo-button-sm fo-button-flat">Link</a>
     </div>
+
+    <CodeViewer code={smallButtonsCode} />
   </section>
 
   <section>
@@ -49,5 +81,7 @@
       <!-- svelte-ignore a11y-invalid-attribute -->
       <a href="#" class="fo-button fo-button-lg fo-button-flat">Link</a>
     </div>
+
+    <CodeViewer code={largeButtonsCode} />
   </section>
 </ComponentContainer>

@@ -38,5 +38,9 @@ main {
 .selects {
   display: flex;
   flex-direction: column;
-  gap: var(--fo-spacing);
+  gap: calc(var(--fo-spacing) * 2);
+}
+
+code {
+  border-radius: var(--fo-card-radius);
 }
