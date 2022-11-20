@@ -81,6 +81,16 @@
         </li>
       </ul>
     {/if}
+
+    {#if $location.pathname.includes('/utilities')}
+      <ul class="side-nav-list">
+        <li>
+          <Link to="utilities" class="fo-button fo-button-flat"
+            >Utilities overview</Link
+          >
+        </li>
+      </ul>
+    {/if}
   </nav>
 </aside>
 

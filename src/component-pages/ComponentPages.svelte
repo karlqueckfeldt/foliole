@@ -1,14 +1,13 @@
 <script>
-  import { Link, Route } from 'svelte-navigator';
-  import ComponentCard from '../component-card/ComponentCard.svelte';
-  import Badges from '../component-pages/badges/Badges.svelte';
-  import Buttons from '../component-pages/buttons/Buttons.svelte';
-  import Cards from '../component-pages/cards/Cards.svelte';
-  import Checkboxes from '../component-pages/checkboxes/Checkboxes.svelte';
-  import Links from '../component-pages/links/Links.svelte';
-  import RadioButtons from '../component-pages/radio-buttons/RadioButtons.svelte';
-  import SelectFields from '../component-pages/select-fields/SelectFields.svelte';
-  import TextFields from '../component-pages/text-fields/TextFields.svelte';
+  import { Route } from 'svelte-navigator';
+  import Badges from './badges/Badges.svelte';
+  import Buttons from './buttons/Buttons.svelte';
+  import Cards from './cards/Cards.svelte';
+  import Checkboxes from './checkboxes/Checkboxes.svelte';
+  import Links from './links/Links.svelte';
+  import RadioButtons from './radio-buttons/RadioButtons.svelte';
+  import SelectFields from './select-fields/SelectFields.svelte';
+  import TextFields from './text-fields/TextFields.svelte';
 </script>
 
 <Route>
@@ -65,9 +64,9 @@
     max-inline-size: 70ch;
   }
 
-  .component-cards {
+  /* .component-cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: calc(var(--fo-spacing) * 2);
-  }
+  } */
 </style>
