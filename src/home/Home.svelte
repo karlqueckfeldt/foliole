@@ -6,7 +6,7 @@
     <p>Welcome to Foliole! A simple component library and style guide.</p>
     <p>To use it in your project, run</p>
     <code class="fo-code-block">npm install foliole</code>
-    <p>and have fun!</p>
+    <p>and have fun! 🥳</p>
   </div>
 </div>
 

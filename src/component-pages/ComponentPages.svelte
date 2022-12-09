@@ -6,7 +6,7 @@
   import Checkboxes from './checkboxes/Checkboxes.svelte';
   import Links from './links/Links.svelte';
   import RadioButtons from './radio-buttons/RadioButtons.svelte';
-  import SelectFields from './select-fields/SelectFields.svelte';
+  import SelectFields from './select/SelectFields.svelte';
   import TextFields from './text-fields/TextFields.svelte';
 </script>
 
@@ -39,7 +39,7 @@
 <Route path="text-fields">
   <TextFields />
 </Route>
-<Route path="select-fields">
+<Route path="select">
   <SelectFields />
 </Route>
 <Route path="radio-buttons">

@@ -13,7 +13,7 @@
     {#if $location.pathname !== '/'}
       <ul class="side-nav-list">
         <li>
-          <Link to="/" class="fo-button fo-button-flat">{'← Go to Home'}</Link>
+          <Link to="/" class="fo-button fo-button-flat">{'← Home'}</Link>
         </li>
       </ul>
     {/if}
@@ -55,8 +55,8 @@
           >
         </li>
         <li>
-          <Link to="components/select-fields" class="fo-button fo-button-flat"
-            >Select fields</Link
+          <Link to="components/select" class="fo-button fo-button-flat"
+            >Select</Link
           >
         </li>
         <li>
