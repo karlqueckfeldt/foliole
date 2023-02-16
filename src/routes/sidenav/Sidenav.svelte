@@ -11,47 +11,57 @@
   <nav>
     <ul class="side-nav-list">
       <li>
-        <a href="/" class="fo-button fo-button-flat">Home</a>
+        <a href="/" class="fo-button fo-button-flat fo-text-primary">Home</a>
       </li>
 
       <li>
-        <a href="/components/" class="fo-button fo-button-flat">Components</a>
-      </li>
-      <li>
-        <a href="/components/buttons" class="fo-button fo-button-flat"
-          >Buttons</a
+        <a href="/components/" class="fo-button fo-button-flat fo-text-primary"
+          >Components</a
         >
       </li>
-      <li>
-        <a href="/components/links" class="fo-button fo-button-flat">Links</a>
-      </li>
-      <li>
-        <a href="/components/text-fields" class="fo-button fo-button-flat"
-          >Text fields</a
-        >
-      </li>
-      <li>
-        <a href="/components/select" class="fo-button fo-button-flat">Select</a>
-      </li>
-      <li>
-        <a href="/components/radio-buttons" class="fo-button fo-button-flat"
-          >Radio buttons</a
-        >
-      </li>
-      <li>
-        <a href="/components/checkboxes" class="fo-button fo-button-flat"
-          >Checkboxes</a
-        >
-      </li>
-      <li>
-        <a href="/components/badges" class="fo-button fo-button-flat">Badges</a>
-      </li>
-      <li>
-        <a href="/components/cards" class="fo-button fo-button-flat">Cards</a>
-      </li>
+      <ul>
+        <li>
+          <a href="/components/buttons" class="fo-button fo-button-flat"
+            >Buttons</a
+          >
+        </li>
+        <li>
+          <a href="/components/links" class="fo-button fo-button-flat">Links</a>
+        </li>
+        <li>
+          <a href="/components/text-fields" class="fo-button fo-button-flat"
+            >Text fields</a
+          >
+        </li>
+        <li>
+          <a href="/components/select" class="fo-button fo-button-flat"
+            >Select</a
+          >
+        </li>
+        <li>
+          <a href="/components/radio-buttons" class="fo-button fo-button-flat"
+            >Radio buttons</a
+          >
+        </li>
+        <li>
+          <a href="/components/checkboxes" class="fo-button fo-button-flat"
+            >Checkboxes</a
+          >
+        </li>
+        <li>
+          <a href="/components/badges" class="fo-button fo-button-flat"
+            >Badges</a
+          >
+        </li>
+        <li>
+          <a href="/components/cards" class="fo-button fo-button-flat">Cards</a>
+        </li>
+      </ul>
 
       <li>
-        <a href="/utilities/" class="fo-button fo-button-flat">Utilities</a>
+        <a href="/utilities/" class="fo-button fo-button-flat fo-text-primary"
+          >Utilities</a
+        >
       </li>
     </ul>
   </nav>
@@ -71,6 +81,10 @@
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+
+  .side-nav-list ul {
+    padding-inline-start: var(--fo-spacing);
   }
 
   .side-nav-list li {

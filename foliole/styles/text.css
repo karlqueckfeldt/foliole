@@ -69,3 +69,7 @@
 .fo-text-right {
   text-align: right;
 }
+
+.fo-text-primary {
+  color: var(--fo-primary-clr);
+}

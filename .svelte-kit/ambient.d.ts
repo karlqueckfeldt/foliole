@@ -113,7 +113,6 @@ declare module '$env/static/private' {
 	export const WT_PROFILE_ID: string;
 	export const WT_SESSION: string;
 	export const _: string;
-	export const __COMPAT_LAYER: string;
 }
 
 /**
@@ -230,7 +229,6 @@ declare module '$env/dynamic/private' {
 		WT_PROFILE_ID: string;
 		WT_SESSION: string;
 		_: string;
-		__COMPAT_LAYER: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: string]: string | undefined;
 	}

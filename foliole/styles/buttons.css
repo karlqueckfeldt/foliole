@@ -10,11 +10,11 @@
   transition: box-shadow 0.1s ease-in-out;
   line-height: 1.5;
   font-weight: 500;
+  color: inherit;
 }
 
 a.fo-button {
   text-decoration: none;
-  color: inherit;
 }
 
 .fo-button:disabled {
