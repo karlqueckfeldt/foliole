@@ -1,0 +1,23 @@
+.fo-navigation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fo-navigation-list ul {
+  padding-inline-start: var(--fo-spacing);
+}
+
+.fo-navigation-list ul li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.fo-navigation-list li a.active {
+  background-color: var(--fo-primary-clr);
+  color: var(--fo-secondary-text-clr);
+}

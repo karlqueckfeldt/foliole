@@ -54,7 +54,7 @@
 }
 
 .fo-code-block {
-  background-color: var(--fo-primary-clr);
+  background-color: var(--fo-dark-clr);
   color: var(--fo-secondary-text-clr);
   border-radius: var(--fo-code-radius);
   padding: calc(var(--fo-spacing) / 2);
@@ -72,4 +72,8 @@
 
 .fo-text-primary {
   color: var(--fo-primary-clr);
+}
+
+.fo-text-bold {
+  font-weight: bold;
 }

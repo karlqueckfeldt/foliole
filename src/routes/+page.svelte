@@ -1,5 +1,5 @@
 <script>
-  import logo from '$lib/images/foliole_no_fill.svg';
+  import logo from '$lib/images/foliole.svg';
 </script>
 
 <svelte:head>

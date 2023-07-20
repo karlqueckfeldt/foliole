@@ -3,17 +3,20 @@
   import './styles.css';
 </script>
 
-<div class="page-container">
+<div class="page-wrapper">
   <Sidenav />
-
-  <main>
-    <slot />
-  </main>
-
-  <footer>
-    <p>This is a footer</p>
-  </footer>
+  <div class="content-wrapper">
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <p>By Karl Queckfeldt, made using Sveltekit.</p>
+    </footer>
+  </div>
 </div>
 
 <style>
+  footer {
+    text-align: center;
+  }
 </style>

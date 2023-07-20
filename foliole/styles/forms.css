@@ -18,6 +18,12 @@
   opacity: 1;
 }
 
+.fo-form-select {
+  cursor: pointer;
+  padding-top: calc(calc(var(--fo-spacing) / 2) - 1px);
+  padding-bottom: calc(calc(var(--fo-spacing) / 2) - 1px);
+}
+
 .fo-form-radio,
 .fo-form-check {
   display: flex;
@@ -29,6 +35,7 @@
 .fo-form-check-input {
   margin: 0;
   margin-inline-end: calc(var(--fo-spacing) / 2);
+  accent-color: var(--fo-primary-clr);
 }
 
 .fo-form-radio-input {
@@ -117,6 +124,11 @@
 
 .fo-form-check-input:disabled:checked {
   background-color: var(--fo-disabled-clr);
+}
+
+:where(.fo-form-radio-input, .fo-form-check-input):not(:disabled),
+:where(.fo-form-radio-input, .fo-form-check-input):not(:disabled) + label {
+  cursor: pointer;
 }
 
 .fo-form-fieldset {

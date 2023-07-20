@@ -11,6 +11,6 @@
 
 <style>
   .fo-card {
-    min-height: 70%;
+    min-height: 50dvh;
   }
 </style>

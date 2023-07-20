@@ -5,23 +5,27 @@
   padding-inline: var(--fo-spacing);
 }
 
-:root,
-body,
-#app {
-  block-size: 100%;
+body {
+  min-height: 100dvh;
+  overflow-y: scroll;
 }
 
 :where(h1, h2, h3, h4, h5, h6):focus {
   outline: none;
 }
 
-.page-container {
+.page-wrapper {
   display: grid;
-  grid-template-columns: minmax(150px, 1fr) 5fr;
-  margin-inline: auto;
-  max-inline-size: var(--max-page-width);
-  min-block-size: 80%;
   gap: var(--fo-spacing);
+  grid-template-columns: minmax(150px, 1fr) 6fr;
+  margin-inline: auto;
+  min-height: 100dvh;
+  max-inline-size: var(--max-page-width);
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-rows: 1fr auto;
 }
 
 main {

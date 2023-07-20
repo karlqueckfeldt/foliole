@@ -39,7 +39,7 @@
   --fo-outline: 2px solid var(--fo-outline-clr);
 
   /* Font family */
-  --fo-font-family: 'Inter', sans-serif;
+  --fo-font-family: Verdana, sans-serif;
 
   /* Font sizes */
   --fo-h1-size: 2.5rem;

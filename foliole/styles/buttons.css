@@ -7,10 +7,10 @@
   border: none;
   border-radius: var(--fo-button-radius);
   box-shadow: var(--fo-box-shadow);
-  transition: box-shadow 0.1s ease-in-out;
   line-height: 1.5;
   font-weight: 500;
   color: inherit;
+  cursor: pointer;
 }
 
 a.fo-button {
@@ -19,10 +19,6 @@ a.fo-button {
 
 .fo-button:disabled {
   pointer-events: none;
-}
-
-.fo-button:active,
-.fo-button:disabled {
   box-shadow: none;
 }
 
@@ -34,7 +30,6 @@ a.fo-button {
 
 .fo-button-primary {
   background-color: var(--fo-primary-clr);
-  border-color: var(--primary-border-clr);
   color: var(--fo-secondary-text-clr);
 }
 
