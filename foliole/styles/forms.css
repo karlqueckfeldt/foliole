@@ -94,8 +94,8 @@
 }
 
 .fo-form-check-input::after {
-  -webkit-mask: url(../assets/images/check.svg) no-repeat 50% 50%;
-  mask: url(../assets/images/check.svg) no-repeat 50% 50%;
+  -webkit-mask: url(../assets/check.svg) no-repeat 50% 50%;
+  mask: url(../assets/check.svg) no-repeat 50% 50%;
   -webkit-mask-size: contain;
   mask-size: contain;
   content: '';
