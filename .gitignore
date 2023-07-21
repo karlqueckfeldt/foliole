@@ -14,6 +14,7 @@ dist-ssr
 
 # Svelte
 .svelte-kit
+build
 
 # Editor directories and files
 .vscode/*
