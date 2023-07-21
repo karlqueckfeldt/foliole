@@ -4,10 +4,7 @@
 
 <svelte:head>
   <title>Foliole</title>
-  <meta
-    name="description"
-    content="Foliole component library and style guide"
-  />
+  <meta name="description" content="Foliole component library" />
 </svelte:head>
 
 <div class="fo-card fo-card-secondary fo-text-center">
@@ -15,10 +12,7 @@
     Foliole <img src={logo} alt="Foliole brand" />
   </h1>
   <div class="fo-lead-text">
-    <p>
-      Welcome to Foliole! A simple framework agnostic component library and
-      style guide.
-    </p>
+    <p>Welcome to Foliole! A simple framework agnostic component library.</p>
     <p>
       To use it in your project, run <code class="fo-code-block"
         >npm install foliole</code
