@@ -1,11 +1,13 @@
 <script>
   import Highlight from 'svelte-highlight';
   import langHtml from 'svelte-highlight/languages/vbscript-html';
+  import langCss from 'svelte-highlight/languages/css';
   import codeStyle from 'svelte-highlight/styles/stackoverflow-light';
 
   import codeIcon from '$lib/images/code.svg';
 
   export let code;
+  export let language = 'html';
 
   const trimmedCode = () => code.trim();
 </script>
@@ -14,9 +16,12 @@
   {@html codeStyle}
 </svelte:head>
 
-<div class="fo-card fo-card-outlined fo-padding-0 fo-margin-top-1">
+<div class="fo-card fo-card-outlined fo-p-0 fo-m-block-start-1">
   <img src={codeIcon} alt="Code icon" />
-  <Highlight language={langHtml} code={trimmedCode()} />
+  <Highlight
+    language={language === 'html' ? langHtml : langCss}
+    code={trimmedCode()}
+  />
 </div>
 
 <style>

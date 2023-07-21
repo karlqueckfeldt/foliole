@@ -3,8 +3,11 @@
 </script>
 
 <svelte:head>
-  <title>Home</title>
-  <meta name="description" content="Svelte demo app" />
+  <title>Foliole</title>
+  <meta
+    name="description"
+    content="Foliole component library and style guide"
+  />
 </svelte:head>
 
 <div class="fo-card fo-card-secondary fo-text-center">
@@ -12,10 +15,16 @@
     Foliole <img src={logo} alt="Foliole brand" />
   </h1>
   <div class="fo-lead-text">
-    <p>Welcome to Foliole! A simple component library and style guide.</p>
-    <p>To use it in your project, run</p>
-    <code class="fo-code-block">npm install foliole</code>
-    <p>and have fun! 🥳</p>
+    <p>
+      Welcome to Foliole! A simple framework agnostic component library and
+      style guide.
+    </p>
+    <p>
+      To use it in your project, run <code class="fo-code-block"
+        >npm install foliole</code
+      >
+      and have fun! 🍂
+    </p>
   </div>
 </div>
 

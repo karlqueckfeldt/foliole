@@ -25,18 +25,20 @@
   --fo-box-shadow-clr: var(--fo-opaque-clr);
   --fo-outline-clr: var(--fo-primary-clr);
 
-  /* Properties */
+  /* General */
   --fo-spacing: 1rem;
-  --fo-border-width: 1px;
+  --fo-border-width: 0.0625rem;
   --fo-radio-border-width: calc(var(--fo-border-width) * 2);
   --fo-border: var(--fo-border-width) solid var(--fo-border-clr);
   --fo-radio-border: var(--fo-radio-border-width) solid var(--fo-radio-clr);
   --fo-button-radius: 999999px;
-  --fo-input-radius: 4px;
-  --fo-card-radius: 18px;
-  --fo-code-radius: 10px;
+  --fo-input-radius: 0.25rem;
+  --fo-card-radius: 1.125rem;
+  --fo-code-radius: 0.625rem;
   --fo-box-shadow: 0 2px 4px 0 var(--fo-box-shadow-clr);
-  --fo-outline: 2px solid var(--fo-outline-clr);
+  --fo-outline: 0.125rem solid var(--fo-outline-clr);
+  --fo-body-line-height: 1.5;
+  --fo-heading-line-height: 1.2;
 
   /* Font family */
   --fo-font-family: Verdana, sans-serif;

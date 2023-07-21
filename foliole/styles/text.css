@@ -1,4 +1,4 @@
-@import url('variables.css');
+@import url('properties.css');
 
 .fo-display-text-lg {
   font-size: var(--fo-display-text-lg-size);
@@ -14,6 +14,15 @@
 .fo-h1,
 .fo-h2,
 .fo-h3,
+.fo-display-text-lg,
+.fo-display-text-md,
+.fo-lead-text {
+  line-height: var(--fo-heading-line-height);
+}
+
+.fo-h1,
+.fo-h2,
+.fo-h3,
 .fo-h4,
 .fo-h5,
 .fo-h6,
@@ -22,34 +31,40 @@
   font-weight: bold;
 }
 
+:where(
+    .fo-h1,
+    .fo-h2,
+    .fo-h3,
+    .fo-h4,
+    .fo-h5,
+    .fo-h6,
+    .fo-display-text-lg .fo-display-text-md
+  ):first-child {
+  margin-block-start: 0;
+}
+
 .fo-h1 {
   font-size: var(--fo-h1-size);
-  margin-block-start: 0;
   margin-block-end: 0.67em;
 }
 .fo-h2 {
   font-size: var(--fo-h2-size);
-  margin-block-start: 0;
   margin-block-end: 0.83em;
 }
 .fo-h3 {
   font-size: var(--fo-h3-size);
-  margin-block-start: 0;
   margin-block-end: 1em;
 }
 .fo-h4 {
   font-size: var(--fo-h4-size);
-  margin-block-start: 0;
   margin-block-end: 1.33em;
 }
 .fo-h5 {
   font-size: var(--fo-h5-size);
-  margin-block-start: 0;
   margin-block-end: 1.67em;
 }
 .fo-h6 {
   font-size: var(--fo-h6-size);
-  margin-block-start: 0;
   margin-block-end: 2.33em;
 }
 
@@ -72,6 +87,10 @@
 
 .fo-text-primary {
   color: var(--fo-primary-clr);
+}
+
+.fo-text-secondary {
+  color: var(--fo-secondary-clr);
 }
 
 .fo-text-bold {

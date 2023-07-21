@@ -17,7 +17,7 @@ body {
 .page-wrapper {
   display: grid;
   gap: var(--fo-spacing);
-  grid-template-columns: minmax(150px, 1fr) 6fr;
+  grid-template-columns: minmax(160px, 1fr) 6fr;
   margin-inline: auto;
   min-height: 100dvh;
   max-inline-size: var(--max-page-width);

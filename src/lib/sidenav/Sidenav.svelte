@@ -14,9 +14,9 @@
     navigation: '/components/navigation',
     badges: '/components/badges',
     cards: '/components/cards',
-    utilities: '/utilities/',
+    utilities: '/utilities',
     classes: '/utilities/classes',
-    variables: '/utilities/variables',
+    properties: '/utilities/properties',
   };
 </script>
 
@@ -24,7 +24,7 @@
   <img
     src={logo}
     alt="Foliole brand icon"
-    class="fo-padding-left-1 fo-padding-bottom-1"
+    class="fo-p-inline-start-1 fo-p-block-end-1"
   />
   <ul class="fo-navigation-list">
     <li>
@@ -126,9 +126,9 @@
       </li>
       <li>
         <a
-          href={links.variables}
+          href={links.properties}
           class="fo-button fo-button-flat"
-          class:active={$page.url.pathname === links.variables}>Variables</a
+          class:active={$page.url.pathname === links.properties}>Properties</a
         >
       </li>
     </ul>
@@ -139,7 +139,7 @@
   .fo-navigation {
     position: sticky;
     top: 0;
-    padding-top: calc(var(--fo-spacing) * 2);
+    padding-block-start: calc(var(--fo-spacing) * 2);
     height: 100dvh;
   }
 </style>

@@ -1,6 +1,6 @@
 <script>
   import CodeViewer from '../../../lib/code-viewer/CodeViewer.svelte';
-  import ComponentContainer from '../component-container/ComponentContainer.svelte';
+  import SubpageContainer from '../../../lib/subpage-container/SubpageContainer.svelte';
 
   const cardsCode = `<div class="fo-card fo-card-primary" aria-labelledby="primary_card_heading">
   <span class="fo-h3" id="primary_card_heading">Primary</span>
@@ -20,7 +20,7 @@
 </div>`;
 </script>
 
-<ComponentContainer heading="Cards">
+<SubpageContainer heading="Cards">
   <div class="components">
     <div class="fo-card fo-card-primary" aria-labelledby="primary_card_heading">
       <span class="fo-h3" id="primary_card_heading">Primary</span>
@@ -47,4 +47,4 @@
   </div>
 
   <CodeViewer code={cardsCode} />
-</ComponentContainer>
+</SubpageContainer>

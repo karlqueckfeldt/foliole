@@ -1,6 +1,6 @@
 <script>
   import CodeViewer from '../../../lib/code-viewer/CodeViewer.svelte';
-  import ComponentContainer from '../component-container/ComponentContainer.svelte';
+  import SubpageContainer from '../../../lib/subpage-container/SubpageContainer.svelte';
 
   const selectCode = `<label class="fo-form-label" for="video_games_select">
     Select
@@ -31,7 +31,7 @@
 </select>`;
 </script>
 
-<ComponentContainer heading="Select">
+<SubpageContainer heading="Select">
   <div class="selects">
     <div>
       <label class="fo-form-label" for="video_games_select">Select</label>
@@ -66,4 +66,4 @@
       <CodeViewer code={disabledSelectCode} />
     </div>
   </div>
-</ComponentContainer>
+</SubpageContainer>

@@ -1,6 +1,6 @@
 <script>
   import CodeViewer from '../../../lib/code-viewer/CodeViewer.svelte';
-  import ComponentContainer from '../component-container/ComponentContainer.svelte';
+  import SubpageContainer from '../../../lib/subpage-container/SubpageContainer.svelte';
 
   const navigationCode = `<nav class="fo-navigation">
   <ul class="fo-navigation-list">
@@ -37,14 +37,14 @@
         <a href="#" class="fo-button fo-button-flat">Classes</a>
       </li>
       <li>
-        <a href="#" class="fo-button fo-button-flat">Variables</a>
+        <a href="#" class="fo-button fo-button-flat">Properties</a>
       </li>
     </ul>
   </ul>
 </nav>`;
 </script>
 
-<ComponentContainer heading="Navigation">
+<SubpageContainer heading="Navigation">
   <!-- svelte-ignore a11y-invalid-attribute -->
   <nav class="fo-navigation">
     <ul class="fo-navigation-list">
@@ -81,10 +81,10 @@
           <a href="#" class="fo-button fo-button-flat">Classes</a>
         </li>
         <li>
-          <a href="#" class="fo-button fo-button-flat">Variables</a>
+          <a href="#" class="fo-button fo-button-flat">Properties</a>
         </li>
       </ul>
     </ul>
   </nav>
   <CodeViewer code={navigationCode} />
-</ComponentContainer>
+</SubpageContainer>

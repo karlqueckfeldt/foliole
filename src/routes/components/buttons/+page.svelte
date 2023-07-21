@@ -1,6 +1,6 @@
 <script>
   import CodeViewer from '../../../lib/code-viewer/CodeViewer.svelte';
-  import ComponentContainer from '../component-container/ComponentContainer.svelte';
+  import SubpageContainer from '../../../lib/subpage-container/SubpageContainer.svelte';
 
   const regularButtonsCode = `<button class="fo-button fo-button-primary">Primary</button>
 <button class="fo-button fo-button-secondary">Secondary</button>
@@ -35,8 +35,8 @@
 </script>
 
 <!-- svelte-ignore a11y-invalid-attribute -->
-<ComponentContainer heading="Buttons">
-  <section class="fo-margin-bottom-3">
+<SubpageContainer heading="Buttons">
+  <section class="fo-m-block-end-3">
     <h3>Regular buttons</h3>
     <div class="components">
       <button class="fo-button fo-button-primary">Primary</button>
@@ -51,7 +51,7 @@
     <CodeViewer code={regularButtonsCode} />
   </section>
 
-  <section class="fo-margin-bottom-3">
+  <section class="fo-m-block-end-3">
     <h3>Small buttons</h3>
     <div class="components">
       <button class="fo-button fo-button-sm fo-button-primary">Primary</button>
@@ -69,7 +69,7 @@
     <CodeViewer code={smallButtonsCode} />
   </section>
 
-  <section class="fo-margin-bottom-3">
+  <section class="fo-m-block-end-3">
     <h3>Large buttons</h3>
     <div class="components">
       <button class="fo-button fo-button-lg fo-button-primary">Primary</button>
@@ -100,4 +100,4 @@
 
     <CodeViewer code={disabledButtonsCode} />
   </section>
-</ComponentContainer>
+</SubpageContainer>

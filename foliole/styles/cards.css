@@ -1,4 +1,4 @@
-@import url('variables.css');
+@import url('properties.css');
 
 .fo-card {
   padding: calc(var(--fo-spacing) * 2);

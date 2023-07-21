@@ -1,5 +1,5 @@
 <script>
-  import Sidenav from './sidenav/Sidenav.svelte';
+  import Sidenav from '../lib/sidenav/Sidenav.svelte';
   import './styles.css';
 </script>
 
@@ -10,7 +10,7 @@
       <slot />
     </main>
     <footer>
-      <p>By Karl Queckfeldt, made using Sveltekit.</p>
+      <p>Made by Karl Queckfeldt using SvelteKit.</p>
     </footer>
   </div>
 </div>

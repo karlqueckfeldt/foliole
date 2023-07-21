@@ -1,6 +1,6 @@
 <script>
   import CodeViewer from '../../../lib/code-viewer/CodeViewer.svelte';
-  import ComponentContainer from '../component-container/ComponentContainer.svelte';
+  import SubpageContainer from '../../../lib/subpage-container/SubpageContainer.svelte';
 
   const textFieldsCode = `<label class="fo-form-label" for="text_input">Text field</label>
 <input
@@ -21,7 +21,7 @@
 />`;
 </script>
 
-<ComponentContainer heading="Text fields">
+<SubpageContainer heading="Text fields">
   <div class="text-fields">
     <div>
       <label class="fo-form-label" for="text_input">Text field</label>
@@ -48,4 +48,4 @@
       <CodeViewer code={disabledTextFieldsCode} />
     </div>
   </div>
-</ComponentContainer>
+</SubpageContainer>

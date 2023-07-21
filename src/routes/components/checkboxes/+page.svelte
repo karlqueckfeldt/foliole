@@ -1,6 +1,6 @@
 <script>
   import CodeViewer from '../../../lib/code-viewer/CodeViewer.svelte';
-  import ComponentContainer from '../component-container/ComponentContainer.svelte';
+  import SubpageContainer from '../../../lib/subpage-container/SubpageContainer.svelte';
 
   const checkboxesCode = `<fieldset class="fo-form-fieldset">
   <legend class="fo-form-fieldset-legend">Food</legend>
@@ -45,7 +45,7 @@
 </fieldset>`;
 </script>
 
-<ComponentContainer heading="Checkboxes">
+<SubpageContainer heading="Checkboxes">
   <fieldset class="fo-form-fieldset">
     <legend class="fo-form-fieldset-legend">Food</legend>
     <div class="fo-form-check">
@@ -88,4 +88,4 @@
     </div>
   </fieldset>
   <CodeViewer code={checkboxesCode} />
-</ComponentContainer>
+</SubpageContainer>

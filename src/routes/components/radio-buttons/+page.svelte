@@ -1,6 +1,6 @@
 <script>
   import CodeViewer from '../../../lib/code-viewer/CodeViewer.svelte';
-  import ComponentContainer from '../component-container/ComponentContainer.svelte';
+  import SubpageContainer from '../../../lib/subpage-container/SubpageContainer.svelte';
 
   const radioButtonsCode = `  <fieldset class="fo-form-fieldset">
   <legend class="fo-form-fieldset-legend">Animals</legend>
@@ -45,7 +45,7 @@
 </fieldset>`;
 </script>
 
-<ComponentContainer heading="Radio buttons">
+<SubpageContainer heading="Radio buttons">
   <fieldset class="fo-form-fieldset">
     <legend class="fo-form-fieldset-legend">Animals</legend>
     <div class="fo-form-radio">
@@ -89,4 +89,4 @@
   </fieldset>
 
   <CodeViewer code={radioButtonsCode} />
-</ComponentContainer>
+</SubpageContainer>

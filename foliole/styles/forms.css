@@ -1,4 +1,4 @@
-@import url('variables.css');
+@import url('properties.css');
 
 .fo-form-field,
 .fo-form-select {
@@ -20,8 +20,8 @@
 
 .fo-form-select {
   cursor: pointer;
-  padding-top: calc(calc(var(--fo-spacing) / 2) - 1px);
-  padding-bottom: calc(calc(var(--fo-spacing) / 2) - 1px);
+  line-height: 24px;
+  height: 2.625rem;
 }
 
 .fo-form-radio,

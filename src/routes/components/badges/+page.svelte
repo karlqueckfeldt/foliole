@@ -1,6 +1,6 @@
 <script>
   import CodeViewer from '../../../lib/code-viewer/CodeViewer.svelte';
-  import ComponentContainer from '../component-container/ComponentContainer.svelte';
+  import SubpageContainer from '../../../lib/subpage-container/SubpageContainer.svelte';
 
   const badgesCode = `<div class="fo-badge fo-badge-primary">Primary</div>
 <div class="fo-badge fo-badge-secondary">Secondary</div>
@@ -10,7 +10,7 @@
 <div class="fo-badge fo-badge-primary"></div>`;
 </script>
 
-<ComponentContainer heading="Badges">
+<SubpageContainer heading="Badges">
   <div class="components">
     <div class="fo-badge fo-badge-primary">Primary</div>
     <div class="fo-badge fo-badge-secondary">Secondary</div>
@@ -21,4 +21,4 @@
   </div>
 
   <CodeViewer code={badgesCode} />
-</ComponentContainer>
+</SubpageContainer>
