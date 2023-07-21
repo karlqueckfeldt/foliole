@@ -3,6 +3,11 @@
   import './styles.css';
 </script>
 
+<svelte:head>
+  <title>Foliole</title>
+  <meta name="description" content="Foliole component library" />
+</svelte:head>
+
 <div class="page-wrapper">
   <Sidenav />
   <div class="content-wrapper">
