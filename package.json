@@ -4,8 +4,7 @@
   "scripts": {
     "dev": "vite dev --open",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "npm build && npx gh-pages -d build -t true"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^2.0.2",
