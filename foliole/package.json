@@ -1,7 +1,7 @@
 {
   "name": "foliole",
-  "version": "0.0.2",
-  "description": "The foliole style library",
+  "version": "0.5",
+  "description": "The Foliole component library",
   "main": "main.css",
   "files": [
     "styles/*.css",
