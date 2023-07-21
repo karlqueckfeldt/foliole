@@ -1,22 +1,23 @@
 <script>
   import logo from '$lib/images/foliole.svg';
+  import { base } from '$app/paths';
   import { page } from '$app/stores';
 
   const links = {
-    home: '/',
-    components: '/components',
-    buttons: '/components/buttons',
-    links: '/components/links',
-    textFields: '/components/text-fields',
-    select: '/components/select',
-    radioButtons: '/components/radio-buttons',
-    checkboxes: '/components/checkboxes',
-    navigation: '/components/navigation',
-    badges: '/components/badges',
-    cards: '/components/cards',
-    utilities: '/utilities',
-    classes: '/utilities/classes',
-    properties: '/utilities/properties',
+    home: `${base}/`,
+    components: `${base}/components`,
+    buttons: `${base}/components/buttons`,
+    links: `${base}/components/links`,
+    textFields: `${base}/components/text-fields`,
+    select: `${base}/components/select`,
+    radioButtons: `${base}/components/radio-buttons`,
+    checkboxes: `${base}/components/checkboxes`,
+    navigation: `${base}/components/navigation`,
+    badges: `${base}/components/badges`,
+    cards: `${base}/components/cards`,
+    utilities: `${base}/utilities`,
+    classes: `${base}/utilities/classes`,
+    properties: `${base}/utilities/properties`,
   };
 </script>
 
