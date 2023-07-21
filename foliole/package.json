@@ -1,6 +1,6 @@
 {
   "name": "foliole",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "The Foliole component library",
   "main": "main.css",
   "files": [
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/karlqueckfeldt/foliole/issues"
   },
+  "keywords": [
+    "component library",
+    "css classes",
+    "css properties"
+  ],
   "homepage": "https://github.com/karlqueckfeldt/foliole#readme"
 }
