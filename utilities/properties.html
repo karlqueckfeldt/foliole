@@ -9,14 +9,14 @@
 		<link href="../_app/immutable/assets/14.ee1fb7a8.css" rel="stylesheet">
 		<link href="../_app/immutable/assets/SubpageContainer.c47a857b.css" rel="stylesheet">
 		<link href="../_app/immutable/assets/SubpageContainer.01efa8eb.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/entry/start.4458fb00.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.c461602a.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index.a164cd80.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.9194426d.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/app.bb68518f.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/0.90c09502.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.81b0f890.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.64dc6f09.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.fcba8601.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/foliole.0c0d5be8.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/stores.30a0db44.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/15.56ea52cf.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores.ef8b4ffd.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/15.3829ce6f.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/SubpageContainer.9f47183a.js"><title>Foliole</title><!-- HEAD_svelte-hbm4jb_START --><meta name="description" content="Foliole component library"><!-- HEAD_svelte-hbm4jb_END --><!-- HEAD_svelte-1ef7rnv_START --><!-- HTML_TAG_START --><style>pre code.hljs{display:block;overflow-x:auto;padding:1em}code.hljs{padding:3px 5px}/*!
   Theme: StackOverflow Light
   Description: Light theme as used on stackoverflow.com
@@ -80,24 +80,24 @@
       <li><a href="/foliole/utilities/properties" class="fo-button fo-button-flat active">Properties</a></li></ul></ul>
 </nav>
   <div class="content-wrapper"><main><section class="fo-card svelte-nbl7xl"><h1 class="fo-display-text-md">Properties</h1>
+  <p>All custom properties are scoped inside <code>:root</code>.</p>
   <h2 class="svelte-yobcya">General</h2>
   
 
 <div class="fo-card fo-card-outlined fo-p-0 fo-m-block-start-1 svelte-yvmrw9"><img src="/foliole/_app/immutable/assets/code.f9cafe02.svg" alt="Code icon" class="svelte-yvmrw9">
   
-  <pre data-language="css" class=" svelte-11sh29b"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-selector-pseudo">:root</span> {
-  <span class="hljs-comment">/* General 🍂 */</span>
-  <span class="hljs-attr">--fo-spacing</span>: <span class="hljs-number">1rem</span>;
-  <span class="hljs-attr">--fo-border-width</span>: <span class="hljs-number">1px</span>;
-  <span class="hljs-attr">--fo-radio-border-width</span>: <span class="hljs-built_in">calc</span>(<span class="hljs-built_in">var</span>(--fo-border-width) * <span class="hljs-number">2</span>);
-  <span class="hljs-attr">--fo-border</span>: <span class="hljs-built_in">var</span>(--fo-border-width) solid <span class="hljs-built_in">var</span>(--fo-border-clr);
-  <span class="hljs-attr">--fo-radio-border</span>: <span class="hljs-built_in">var</span>(--fo-radio-border-width) solid <span class="hljs-built_in">var</span>(--fo-radio-clr);
-  <span class="hljs-attr">--fo-button-radius</span>: <span class="hljs-number">999999px</span>;
-  <span class="hljs-attr">--fo-input-radius</span>: <span class="hljs-number">4px</span>;
-  <span class="hljs-attr">--fo-card-radius</span>: <span class="hljs-number">18px</span>;
-  <span class="hljs-attr">--fo-code-radius</span>: <span class="hljs-number">10px</span>;
-  <span class="hljs-attr">--fo-box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">2px</span> <span class="hljs-number">4px</span> <span class="hljs-number">0</span> <span class="hljs-built_in">var</span>(--fo-box-shadow-clr);
-  <span class="hljs-attr">--fo-outline</span>: <span class="hljs-number">2px</span> solid <span class="hljs-built_in">var</span>(--fo-outline-clr);<!-- HTML_TAG_END --></code></pre>
+  <pre data-language="css" class=" svelte-11sh29b"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-comment">/* General 🍂 */</span>
+<span class="hljs-attr">--fo-spacing</span>: <span class="hljs-number">1rem</span>;
+<span class="hljs-attr">--fo-border-width</span>: <span class="hljs-number">1px</span>;
+<span class="hljs-attr">--fo-radio-border-width</span>: <span class="hljs-built_in">calc</span>(<span class="hljs-built_in">var</span>(--fo-border-width) * <span class="hljs-number">2</span>);
+<span class="hljs-attr">--fo-border</span>: <span class="hljs-built_in">var</span>(--fo-border-width) solid <span class="hljs-built_in">var</span>(--fo-border-clr);
+<span class="hljs-attr">--fo-radio-border</span>: <span class="hljs-built_in">var</span>(--fo-radio-border-width) solid <span class="hljs-built_in">var</span>(--fo-radio-clr);
+<span class="hljs-attr">--fo-button-radius</span>: <span class="hljs-number">999999px</span>;
+<span class="hljs-attr">--fo-input-radius</span>: <span class="hljs-number">4px</span>;
+<span class="hljs-attr">--fo-card-radius</span>: <span class="hljs-number">18px</span>;
+<span class="hljs-attr">--fo-code-radius</span>: <span class="hljs-number">10px</span>;
+<span class="hljs-attr">--fo-box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">2px</span> <span class="hljs-number">4px</span> <span class="hljs-number">0</span> <span class="hljs-built_in">var</span>(--fo-box-shadow-clr);
+<span class="hljs-attr">--fo-outline</span>: <span class="hljs-number">2px</span> solid <span class="hljs-built_in">var</span>(--fo-outline-clr);<!-- HTML_TAG_END --></code></pre>
 
 </div>
 
@@ -106,33 +106,31 @@
 
 <div class="fo-card fo-card-outlined fo-p-0 fo-m-block-start-1 svelte-yvmrw9"><img src="/foliole/_app/immutable/assets/code.f9cafe02.svg" alt="Code icon" class="svelte-yvmrw9">
   
-  <pre data-language="css" class=" svelte-11sh29b"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-selector-pseudo">:root</span> {
-  <span class="hljs-comment">/* Base colors 🍂 */</span>
-  <span class="hljs-attr">--fo-primary-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">22</span>, <span class="hljs-number">92</span>, <span class="hljs-number">38</span>);
-  <span class="hljs-attr">--fo-secondary-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">204</span>, <span class="hljs-number">230</span>, <span class="hljs-number">212</span>);
-  <span class="hljs-attr">--fo-warning-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">210</span> <span class="hljs-number">42</span> <span class="hljs-number">18</span>);
-  <span class="hljs-attr">--fo-light-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">243</span>, <span class="hljs-number">248</span>, <span class="hljs-number">246</span>);
-  <span class="hljs-attr">--fo-dark-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">32</span>, <span class="hljs-number">49</span>, <span class="hljs-number">41</span>);
-  
-  <span class="hljs-comment">/* Lighter base colors 🍂 */</span>
-  <span class="hljs-attr">--fo-primary-light-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">34</span>, <span class="hljs-number">106</span>, <span class="hljs-number">40</span>);
-  <span class="hljs-attr">--fo-secondary-light-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">222</span>, <span class="hljs-number">238</span>, <span class="hljs-number">225</span>);
-  <span class="hljs-attr">--fo-warning-light-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">229</span>, <span class="hljs-number">52</span>, <span class="hljs-number">46</span>);
-  
-  <span class="hljs-comment">/* Misc colors 🍂 */</span>
-  <span class="hljs-attr">--fo-disabled-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">190</span>, <span class="hljs-number">190</span>, <span class="hljs-number">190</span>);
-  <span class="hljs-attr">--fo-opaque-clr</span>: <span class="hljs-built_in">rgba</span>(<span class="hljs-number">85</span>, <span class="hljs-number">85</span>, <span class="hljs-number">85</span>, <span class="hljs-number">0.202</span>);
-  
-  <span class="hljs-comment">/* Color applications 🍂 */</span>
-  <span class="hljs-attr">--fo-primary-text-clr</span>: <span class="hljs-built_in">var</span>(--fo-dark-clr);
-  <span class="hljs-attr">--fo-secondary-text-clr</span>: <span class="hljs-built_in">var</span>(--fo-light-clr);
-  <span class="hljs-attr">--fo-border-clr</span>: <span class="hljs-built_in">var</span>(--fo-primary-clr);
-  <span class="hljs-attr">--fo-link-clr</span>: <span class="hljs-built_in">var</span>(--fo-primary-clr);
-  <span class="hljs-attr">--fo-bg-clr</span>: <span class="hljs-built_in">var</span>(--fo-light-clr);
-  <span class="hljs-attr">--fo-radio-clr</span>: <span class="hljs-built_in">var</span>(--fo-primary-clr);
-  <span class="hljs-attr">--fo-box-shadow-clr</span>: <span class="hljs-built_in">var</span>(--fo-opaque-clr);
-  <span class="hljs-attr">--fo-outline-clr</span>: <span class="hljs-built_in">var</span>(--fo-primary-clr);
-}<!-- HTML_TAG_END --></code></pre>
+  <pre data-language="css" class=" svelte-11sh29b"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-comment">/* Base colors 🍂 */</span>
+<span class="hljs-attr">--fo-primary-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">22</span>, <span class="hljs-number">92</span>, <span class="hljs-number">38</span>);
+<span class="hljs-attr">--fo-secondary-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">204</span>, <span class="hljs-number">230</span>, <span class="hljs-number">212</span>);
+<span class="hljs-attr">--fo-warning-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">210</span> <span class="hljs-number">42</span> <span class="hljs-number">18</span>);
+<span class="hljs-attr">--fo-light-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">243</span>, <span class="hljs-number">248</span>, <span class="hljs-number">246</span>);
+<span class="hljs-attr">--fo-dark-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">32</span>, <span class="hljs-number">49</span>, <span class="hljs-number">41</span>);
+
+<span class="hljs-comment">/* Lighter base colors 🍂 */</span>
+<span class="hljs-attr">--fo-primary-light-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">34</span>, <span class="hljs-number">106</span>, <span class="hljs-number">40</span>);
+<span class="hljs-attr">--fo-secondary-light-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">222</span>, <span class="hljs-number">238</span>, <span class="hljs-number">225</span>);
+<span class="hljs-attr">--fo-warning-light-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">229</span>, <span class="hljs-number">52</span>, <span class="hljs-number">46</span>);
+
+<span class="hljs-comment">/* Misc colors 🍂 */</span>
+<span class="hljs-attr">--fo-disabled-clr</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">190</span>, <span class="hljs-number">190</span>, <span class="hljs-number">190</span>);
+<span class="hljs-attr">--fo-opaque-clr</span>: <span class="hljs-built_in">rgba</span>(<span class="hljs-number">85</span>, <span class="hljs-number">85</span>, <span class="hljs-number">85</span>, <span class="hljs-number">0.202</span>);
+
+<span class="hljs-comment">/* Color applications 🍂 */</span>
+<span class="hljs-attr">--fo-primary-text-clr</span>: <span class="hljs-built_in">var</span>(--fo-dark-clr);
+<span class="hljs-attr">--fo-secondary-text-clr</span>: <span class="hljs-built_in">var</span>(--fo-light-clr);
+<span class="hljs-attr">--fo-border-clr</span>: <span class="hljs-built_in">var</span>(--fo-primary-clr);
+<span class="hljs-attr">--fo-link-clr</span>: <span class="hljs-built_in">var</span>(--fo-primary-clr);
+<span class="hljs-attr">--fo-bg-clr</span>: <span class="hljs-built_in">var</span>(--fo-light-clr);
+<span class="hljs-attr">--fo-radio-clr</span>: <span class="hljs-built_in">var</span>(--fo-primary-clr);
+<span class="hljs-attr">--fo-box-shadow-clr</span>: <span class="hljs-built_in">var</span>(--fo-opaque-clr);
+<span class="hljs-attr">--fo-outline-clr</span>: <span class="hljs-built_in">var</span>(--fo-primary-clr);<!-- HTML_TAG_END --></code></pre>
 
 </div>
 
@@ -141,37 +139,37 @@
 
 <div class="fo-card fo-card-outlined fo-p-0 fo-m-block-start-1 svelte-yvmrw9"><img src="/foliole/_app/immutable/assets/code.f9cafe02.svg" alt="Code icon" class="svelte-yvmrw9">
   
-  <pre data-language="css" class=" svelte-11sh29b"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-selector-pseudo">:root</span> {
-  <span class="hljs-comment">/* Font family 🍂 */</span>
-  <span class="hljs-attr">--fo-font-family</span>: Verdana, sans-serif;
+  <pre data-language="css" class=" svelte-11sh29b"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-comment">/* Font family 🍂 */</span>
+<span class="hljs-attr">--fo-font-family</span>: Verdana, sans-serif;
 
-  <span class="hljs-comment">/* Font sizes 🍂 */</span>
-  <span class="hljs-attr">--fo-h1-size</span>: <span class="hljs-number">2.5rem</span>;
-  <span class="hljs-attr">--fo-h2-size</span>: <span class="hljs-number">2rem</span>;
-  <span class="hljs-attr">--fo-h3-size</span>: <span class="hljs-number">1.5rem</span>;
-  <span class="hljs-attr">--fo-h4-size</span>: <span class="hljs-number">1rem</span>;
-  <span class="hljs-attr">--fo-h5-size</span>: <span class="hljs-number">0.9em</span>;
-  <span class="hljs-attr">--fo-h6-size</span>: <span class="hljs-number">0.7em</span>;
-  <span class="hljs-attr">--fo-display-text-lg-size</span>: <span class="hljs-number">7rem</span>;
-  <span class="hljs-attr">--fo-display-text-md-size</span>: <span class="hljs-number">4rem</span>;
-  <span class="hljs-attr">--fo-text-sm-size</span>: <span class="hljs-number">0.8em</span>;
-  <span class="hljs-attr">--fo-text-lg-size</span>: <span class="hljs-number">1.4em</span>;
+<span class="hljs-comment">/* Font sizes 🍂 */</span>
+<span class="hljs-attr">--fo-h1-size</span>: <span class="hljs-number">2.5rem</span>;
+<span class="hljs-attr">--fo-h2-size</span>: <span class="hljs-number">2rem</span>;
+<span class="hljs-attr">--fo-h3-size</span>: <span class="hljs-number">1.5rem</span>;
+<span class="hljs-attr">--fo-h4-size</span>: <span class="hljs-number">1rem</span>;
+<span class="hljs-attr">--fo-h5-size</span>: <span class="hljs-number">0.9em</span>;
+<span class="hljs-attr">--fo-h6-size</span>: <span class="hljs-number">0.7em</span>;
+<span class="hljs-attr">--fo-display-text-lg-size</span>: <span class="hljs-number">7rem</span>;
+<span class="hljs-attr">--fo-display-text-md-size</span>: <span class="hljs-number">4rem</span>;
+<span class="hljs-attr">--fo-text-sm-size</span>: <span class="hljs-number">0.8em</span>;
+<span class="hljs-attr">--fo-text-lg-size</span>: <span class="hljs-number">1.4em</span>;
 
-  <span class="hljs-comment">/* Line height 🍂 */</span>
-  <span class="hljs-attr">--fo-body-line-height</span>: <span class="hljs-number">1.5</span>;
-  <span class="hljs-attr">--fo-heading-line-height</span>: <span class="hljs-number">1.2</span>;
-}<!-- HTML_TAG_END --></code></pre>
+<span class="hljs-comment">/* Line height 🍂 */</span>
+<span class="hljs-attr">--fo-body-line-height</span>: <span class="hljs-number">1.5</span>;
+<span class="hljs-attr">--fo-heading-line-height</span>: <span class="hljs-number">1.2</span>;<!-- HTML_TAG_END --></code></pre>
 
 </div>
 </section></main>
-    <footer class="svelte-1kruojt"><p>Made by Karl Queckfeldt using SvelteKit.</p></footer></div>
+    <footer class="svelte-1kruojt"><p>Made by Karl Queckfeldt using SvelteKit. <a href="https://github.com/karlqueckfeldt/foliole" target="_blank" rel="noopener noreferrer">GitHub repository</a>.
+        <a href="https://www.npmjs.com/package/foliole" target="_blank" rel="noopener noreferrer">NPM page</a>.
+      </p></footer></div>
 </div>
 
 
 			
 			<script>
 				{
-					__sveltekit_so88j9 = {
+					__sveltekit_126dcu5 = {
 						assets: "/foliole",
 						base: new URL("..", location).pathname.slice(0, -1),
 						env: {}
@@ -182,8 +180,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("../_app/immutable/entry/start.4458fb00.js"),
-						import("../_app/immutable/entry/app.bb68518f.js")
+						import("../_app/immutable/entry/start.c461602a.js"),
+						import("../_app/immutable/entry/app.64dc6f09.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 15],
