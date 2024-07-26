@@ -1,6 +1,6 @@
 {
   "name": "foliole-site",
-  "version": "0.5.4",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite dev --open",
     "build": "vite build",
