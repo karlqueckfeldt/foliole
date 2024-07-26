@@ -18,10 +18,38 @@
   opacity: 1;
 }
 
+.fo-form-select-container {
+  display: inline-block;
+  position: relative;
+}
+
+.fo-form-select-container::after {
+  -webkit-mask: url(../assets/arrow-down.svg) no-repeat 50% 50%;
+  mask: url(../assets/arrow-down.svg) no-repeat 50% 50%;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  content: '';
+  display: block;
+  block-size: 100%;
+  right: 0.5rem;
+  position: absolute;
+  top: 0;
+  inline-size: 1rem;
+  background-color: var(--fo-primary-clr);
+}
+
+.fo-form-select-container:has(select:disabled)::after {
+  background-color: var(--fo-primary-text-clr);
+}
+
 .fo-form-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   cursor: pointer;
-  line-height: 24px;
+  line-height: 1.5rem;
   height: 2.625rem;
+  padding-right: 2rem;
 }
 
 .fo-form-radio,
