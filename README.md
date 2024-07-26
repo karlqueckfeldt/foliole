@@ -10,8 +10,8 @@ The source code for the library can be found inside the `foliole` folder.
 
 ### Installation
 
-Install the library in your project using `npm install foliole` and import `foliole/main.css` wherever is suitable for your project.
+Install the library in your project using `npm install foliole` and import `foliole/main.css` wherever suitable for your project.
 
 ## Site
 
-The site is put together using the Svelte framework, more specifically SvelteKit. It in turn uses the Foliole component library for all the styling. The source code for the site can be found inside the `src` folder.
+The site is put together using SvelteKit. It in turn uses the Foliole component library for all the styling. The source code for the site can be found inside the `src` folder.
