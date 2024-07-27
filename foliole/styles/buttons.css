@@ -1,5 +1,9 @@
 @import url('properties.css');
 
+button:focus-visible {
+  outline-offset: 1px;
+}
+
 .fo-button {
   display: inline-block;
   padding: calc(var(--fo-spacing) / 2) var(--fo-spacing);
