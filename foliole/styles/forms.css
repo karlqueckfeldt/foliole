@@ -36,6 +36,7 @@
   top: 0;
   inline-size: 1rem;
   background-color: var(--fo-primary-clr);
+  pointer-events: none;
 }
 
 .fo-form-select-container:has(select:disabled)::after {
