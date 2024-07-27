@@ -4,7 +4,7 @@
   import { page } from '$app/stores';
 
   const links = {
-    home: `${base}`,
+    home: `${base}/`,
     components: `${base}/components`,
     buttons: `${base}/components/buttons`,
     links: `${base}/components/links`,
