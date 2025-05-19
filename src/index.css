@@ -1,0 +1,11 @@
+@import 'foliole';
+
+:root {
+  --max-page-width: 82rem;
+  padding-inline: var(--fo-spacing);
+}
+
+body {
+  min-height: 100dvh;
+  overflow-y: scroll;
+}

@@ -1,0 +1,29 @@
+.app {
+  display: grid;
+  gap: var(--fo-spacing);
+  grid-template-columns: minmax(160px, 1fr) 6fr;
+  margin-inline: auto;
+  min-height: 100dvh;
+  max-inline-size: var(--max-page-width);
+
+  .main {
+    padding-block-start: calc(var(--fo-spacing) * 2);
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .components {
+    display: flex;
+    gap: var(--fo-spacing);
+    flex-wrap: wrap;
+  }
+
+  .text-fields,
+  .selects {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--fo-spacing) * 2);
+  }
+}

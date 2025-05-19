@@ -1,0 +1,13 @@
+.home {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--fo-spacing);
+    flex-wrap: wrap;
+
+    h1 {
+      margin-bottom: 0;
+    }
+  }
+}

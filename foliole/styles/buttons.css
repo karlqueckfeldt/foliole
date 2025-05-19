@@ -21,7 +21,8 @@ a.fo-button {
   text-decoration: none;
 }
 
-.fo-button:disabled {
+.fo-button:disabled,
+.fo-button[aria-disabled='true'] {
   pointer-events: none;
   box-shadow: none;
 }
@@ -81,6 +82,7 @@ a.fo-button.fo-link-active {
   font-size: var(--fo-text-sm-size);
 }
 
-.fo-button:disabled {
+.fo-button:disabled,
+.fo-button[aria-disabled='true'] {
   opacity: 0.7;
 }

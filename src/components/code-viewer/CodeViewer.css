@@ -1,0 +1,17 @@
+.code-viewer {
+  &.fo-card {
+    display: flex;
+    gap: var(--fo-spacing);
+    font-size: 1rem;
+    border-color: var(--fo-opaque-clr);
+    padding: var(--fo-spacing);
+  }
+
+  pre {
+    flex: 1;
+  }
+
+  img {
+    align-self: start;
+  }
+}

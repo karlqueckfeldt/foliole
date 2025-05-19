@@ -1,0 +1,12 @@
+.fo-navigation.navigation {
+  position: sticky;
+  top: 0;
+  padding-block-start: calc(var(--fo-spacing) * 2);
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 4rem;
+    margin: 0 auto;
+  }
+}
