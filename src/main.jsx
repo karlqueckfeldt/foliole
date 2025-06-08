@@ -25,7 +25,15 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       {
         path: routes.components.path.slice(1),
-        element: <div className="fo-card fo-card-secondary">Components</div>,
+        element: (
+          <div className="fo-card fo-card-secondary">
+            <h1 className="fo-display-text-lg">Components</h1>
+            <p className="fo-lead-text">
+              Foliole includes a small collection of components implemented with
+              native HTML and CSS using custom properties.
+            </p>
+          </div>
+        ),
       },
       {
         path: routes.badge.path.slice(1),
@@ -65,7 +73,15 @@ const router = createBrowserRouter([
       },
       {
         path: routes.utilities.path.slice(1),
-        element: <div className="fo-card fo-card-secondary">Utilities</div>,
+        element: (
+          <div className="fo-card fo-card-secondary">
+            <h1 className="fo-display-text-lg">Utilities</h1>
+            <p className="fo-lead-text">
+              Foliole includes various CSS classes and properties that can be
+              used to customize your project.
+            </p>
+          </div>
+        ),
       },
       {
         path: routes.classes.path.slice(1),
