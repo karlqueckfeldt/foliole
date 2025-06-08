@@ -2,10 +2,22 @@ import { NavLink } from 'react-router';
 import logo from '../../assets/foliole-big.svg';
 import './Sidenav.css';
 import { routes } from '../../utilities/routes';
+import crossIcon from '../../assets/cross.svg';
 
 function Sidenav() {
   return (
     <nav className="fo-navigation navigation">
+      <button
+        aria-label="Close"
+        className="menu-button"
+        onClick={() =>
+          document
+            .querySelector('.fo-navigation.navigation')
+            .classList.remove('open')
+        }
+      >
+        <img src={crossIcon} aria-hidden="true" />
+      </button>
       <img src={logo} alt="Foliole brand icon" className="fo-p-block-end-1" />
       <ul className="fo-navigation-list">
         <li>
