@@ -6,6 +6,7 @@
   max-inline-size: var(--max-page-width);
 
   .menu-button {
+    display: none;
     background: none;
     padding: 0;
     border: none;
@@ -45,6 +46,10 @@
   .app {
     .main-wrapper {
       display: block;
+    }
+
+    .menu-button {
+      display: flex;
     }
 
     .main {

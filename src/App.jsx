@@ -4,17 +4,19 @@ import Sidenav from './components/sidenav/Sidenav';
 import menuIcon from './assets/menu.svg';
 
 function App() {
+  function openMenu() {
+    const menu = document.querySelector('.fo-navigation.navigation');
+    menu.classList.add('open');
+    menu.removeAttribute('inert');
+  }
+
   return (
     <div className="app">
       <div className="main-wrapper">
         <button
           className="menu-button"
           aria-label="Open menu"
-          onClick={() =>
-            document
-              .querySelector('.fo-navigation.navigation')
-              .classList.toggle('open')
-          }
+          onClick={() => openMenu()}
         >
           <img src={menuIcon} aria-hidden="true" />
         </button>

@@ -1,12 +1,17 @@
-# React + Vite
+# Welcome to Foliole! 🍂
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple framework agnostic component library.
 
-Currently, two official plugins are available:
+Here you'll find the source code for both the Foliole component library, as well as the Foliole site.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Component library
 
-## Expanding the ESLint configuration
+The source code for the library can be found inside the foliole folder.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+Install the library in your project using `npm install foliole` and import `foliole/main.css` wherever suitable for your project.
+
+## Site
+
+The site is put together using SvelteKit. It in turn uses the Foliole component library for all the styling. The source code for the site can be found inside the src folder.

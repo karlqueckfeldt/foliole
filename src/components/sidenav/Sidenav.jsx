@@ -5,16 +5,18 @@ import { routes } from '../../utilities/routes';
 import crossIcon from '../../assets/cross.svg';
 
 function Sidenav() {
+  function closeMenu() {
+    const menu = document.querySelector('.fo-navigation.navigation');
+    menu.classList.remove('open');
+    menu.setAttribute('inert', '');
+  }
+
   return (
     <nav className="fo-navigation navigation">
       <button
         aria-label="Close"
         className="menu-button"
-        onClick={() =>
-          document
-            .querySelector('.fo-navigation.navigation')
-            .classList.remove('open')
-        }
+        onClick={() => closeMenu()}
       >
         <img src={crossIcon} aria-hidden="true" />
       </button>
