@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      const pathname = window.location.pathname;
+      const repoName = '/foliole';
+
+      if (!pathname.startsWith(repoName + '/')) {
+        window.location.href = repoName + '/';
+      } else {
+        window.location.href =
+          repoName +
+          '/index.html' +
+          window.location.search +
+          window.location.hash;
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
