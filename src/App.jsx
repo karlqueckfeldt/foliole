@@ -17,6 +17,7 @@ function App() {
           className="menu-button"
           aria-label="Open menu"
           onClick={() => openMenu()}
+          aria-controls="sideMenu"
         >
           <img src={menuIcon} aria-hidden="true" />
         </button>

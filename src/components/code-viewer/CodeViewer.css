@@ -1,4 +1,6 @@
 .code-viewer {
+  overflow: auto;
+
   &.fo-card {
     display: flex;
     gap: var(--fo-spacing);

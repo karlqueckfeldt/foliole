@@ -12,7 +12,7 @@ function Sidenav() {
   }
 
   return (
-    <nav className="fo-navigation navigation">
+    <nav className="fo-navigation navigation" id="sideMenu">
       <button
         aria-label="Close"
         className="menu-button"
