@@ -8,6 +8,7 @@ function App() {
     const menu = document.querySelector('.fo-navigation.navigation');
     menu.classList.add('open');
     menu.removeAttribute('inert');
+    menu.querySelector('.navigation .menu-button').focus();
   }
 
   return (

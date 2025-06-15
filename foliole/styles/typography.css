@@ -68,8 +68,8 @@
 }
 
 .fo-code-block {
-  background-color: var(--fo-dark-clr);
-  color: var(--fo-secondary-text-clr);
+  background-color: var(--fo-dark-color);
+  color: var(--fo-secondary-text-color);
   border-radius: var(--fo-code-radius);
   padding: calc(var(--fo-spacing) / 16) calc(var(--fo-spacing) / 2);
 }
@@ -85,11 +85,11 @@
 }
 
 .fo-text-primary {
-  color: var(--fo-primary-clr);
+  color: var(--fo-primary-color);
 }
 
 .fo-text-secondary {
-  color: var(--fo-secondary-clr);
+  color: var(--fo-secondary-color);
 }
 
 .fo-text-bold {

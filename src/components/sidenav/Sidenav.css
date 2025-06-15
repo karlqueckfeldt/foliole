@@ -24,7 +24,7 @@
     top: 0;
     left: 0;
     height: 100%;
-    background-color: var(--fo-bg-clr);
+    background-color: var(--fo-bg-color);
     box-shadow: var(--fo-box-shadow);
     z-index: 1;
     padding-inline: var(--fo-spacing);

@@ -4,7 +4,7 @@
   font-size: var(--fo-text-sm-size);
   display: inline-block;
   padding: calc(var(--fo-spacing) / 2) calc(var(--fo-spacing) / 2);
-  background-color: var(--fo-bg-clr);
+  background-color: var(--fo-bg-color);
   border-radius: 999999px;
   box-shadow: var(--fo-box-shadow);
   block-size: fit-content;
@@ -14,16 +14,16 @@
 }
 
 .fo-badge-primary {
-  background-color: var(--fo-primary-clr);
-  color: var(--fo-secondary-text-clr);
+  background-color: var(--fo-primary-color);
+  color: var(--fo-secondary-text-color);
 }
 
 .fo-badge-secondary {
-  background-color: var(--fo-secondary-clr);
+  background-color: var(--fo-secondary-color);
 }
 
 .fo-badge-outlined {
   border: var(--fo-border);
   box-shadow: none;
-  color: var(--fo-primary-text-clr);
+  color: var(--fo-primary-text-color);
 }

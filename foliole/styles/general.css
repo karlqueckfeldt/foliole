@@ -2,20 +2,20 @@
 
 body {
   margin: 0;
-  background-color: var(--fo-bg-clr);
-  color: var(--fo-primary-text-clr);
+  background-color: var(--fo-bg-color);
+  color: var(--fo-primary-text-color);
   font-family: var(--fo-font-family);
   font-size: 1rem;
   line-height: var(--fo-body-line-height);
 }
 
 ::-moz-selection {
-  background: var(--fo-primary-text-clr);
-  color: var(--fo-secondary-text-clr);
+  background: var(--fo-primary-text-color);
+  color: var(--fo-secondary-text-color);
 }
 ::selection {
-  background: var(--fo-primary-text-clr);
-  color: var(--fo-secondary-text-clr);
+  background: var(--fo-primary-text-color);
+  color: var(--fo-secondary-text-color);
 }
 
 *,

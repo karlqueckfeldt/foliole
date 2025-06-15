@@ -6,13 +6,13 @@
   border-radius: var(--fo-input-radius);
   padding: calc(var(--fo-spacing) / 2);
   display: block;
-  background-color: var(--fo-bg-clr);
+  background-color: var(--fo-bg-color);
 }
 
 .fo-form-field:disabled,
 .fo-form-select:disabled {
-  background-color: var(--fo-disabled-clr);
-  border-color: var(--fo-disabled-clr);
+  background-color: var(--fo-disabled-color);
+  border-color: var(--fo-disabled-color);
   cursor: default;
   box-shadow: none;
   opacity: 1;
@@ -35,12 +35,12 @@
   position: absolute;
   top: 0;
   inline-size: 1rem;
-  background-color: var(--fo-primary-clr);
+  background-color: var(--fo-primary-color);
   pointer-events: none;
 }
 
 .fo-form-select-container:has(select:disabled)::after {
-  background-color: var(--fo-primary-text-clr);
+  background-color: var(--fo-primary-text-color);
 }
 
 .fo-form-select {
@@ -64,7 +64,7 @@
 .fo-form-check-input {
   margin: 0;
   margin-inline-end: calc(var(--fo-spacing) / 2);
-  accent-color: var(--fo-primary-clr);
+  accent-color: var(--fo-primary-color);
 }
 
 .fo-form-radio-input {
@@ -90,7 +90,7 @@
   border-radius: 9999999px;
   transform: scale(0);
   transition: 0.1s transform ease-in-out;
-  background-color: var(--fo-primary-clr);
+  background-color: var(--fo-primary-color);
 }
 
 .fo-form-radio-input:checked::before {
@@ -98,15 +98,15 @@
 }
 
 .fo-form-radio-input:disabled {
-  border-color: var(--fo-disabled-clr);
+  border-color: var(--fo-disabled-color);
 }
 
 .fo-form-radio-input:disabled + label {
-  color: var(--fo-disabled-clr);
+  color: var(--fo-disabled-color);
 }
 
 .fo-form-radio-input:disabled:checked::before {
-  background-color: var(--fo-disabled-clr);
+  background-color: var(--fo-disabled-color);
 }
 
 .fo-form-check-input {
@@ -114,7 +114,7 @@
   block-size: 1.2em;
   inline-size: 1.2em;
   border-radius: var(--fo-input-radius);
-  background-color: var(--fo-bg-clr);
+  background-color: var(--fo-bg-color);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -130,13 +130,13 @@
   content: '';
   display: block;
   block-size: 100%;
-  background-color: var(--fo-bg-clr);
+  background-color: var(--fo-bg-color);
   transform: scale(0);
   transition: transform 0.1s ease-in-out;
 }
 
 .fo-form-check-input:checked {
-  background-color: var(--fo-radio-clr);
+  background-color: var(--fo-radio-color);
 }
 
 .fo-form-check-input:checked::after {
@@ -144,15 +144,15 @@
 }
 
 .fo-form-check-input:disabled {
-  border-color: var(--fo-disabled-clr);
+  border-color: var(--fo-disabled-color);
 }
 
 .fo-form-check-input:disabled + label {
-  color: var(--fo-disabled-clr);
+  color: var(--fo-disabled-color);
 }
 
 .fo-form-check-input:disabled:checked {
-  background-color: var(--fo-disabled-clr);
+  background-color: var(--fo-disabled-color);
 }
 
 :where(.fo-form-radio-input, .fo-form-check-input):not(:disabled),

@@ -5,7 +5,7 @@
     display: flex;
     gap: var(--fo-spacing);
     font-size: 1rem;
-    border-color: var(--fo-opaque-clr);
+    border-color: var(--fo-opaque-color);
     padding: var(--fo-spacing);
   }
 

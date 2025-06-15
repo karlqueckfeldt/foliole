@@ -1,42 +1,42 @@
 :root {
   /* Base colors */
-  --fo-primary-clr: rgb(22, 92, 38);
-  --fo-secondary-clr: rgb(204, 230, 212);
-  --fo-warning-clr: rgb(210 42 18);
-  --fo-light-clr: rgb(243, 248, 246);
-  --fo-dark-clr: rgb(32, 49, 41);
+  --fo-primary-color: rgb(22, 92, 38);
+  --fo-secondary-color: rgb(204, 230, 212);
+  --fo-warning-color: rgb(210 42 18);
+  --fo-light-color: rgb(243, 248, 246);
+  --fo-dark-color: rgb(32, 49, 41);
 
   /* Lighter base colors */
-  --fo-primary-light-clr: rgb(34, 106, 40);
-  --fo-secondary-light-clr: rgb(222, 238, 225);
-  --fo-warning-light-clr: rgb(229, 52, 46);
+  --fo-primary-light-color: rgb(34, 106, 40);
+  --fo-secondary-light-color: rgb(222, 238, 225);
+  --fo-warning-light-color: rgb(229, 52, 46);
 
   /* Misc colors */
-  --fo-disabled-clr: rgb(190, 190, 190);
-  --fo-opaque-clr: rgba(85, 85, 85, 0.202);
+  --fo-disabled-color: rgb(190, 190, 190);
+  --fo-opaque-color: rgba(85, 85, 85, 0.3);
 
   /* Color applications */
-  --fo-primary-text-clr: var(--fo-dark-clr);
-  --fo-secondary-text-clr: var(--fo-light-clr);
-  --fo-border-clr: var(--fo-primary-clr);
-  --fo-link-clr: var(--fo-primary-clr);
-  --fo-bg-clr: var(--fo-light-clr);
-  --fo-radio-clr: var(--fo-primary-clr);
-  --fo-box-shadow-clr: var(--fo-opaque-clr);
-  --fo-outline-clr: var(--fo-primary-clr);
+  --fo-primary-text-color: var(--fo-dark-color);
+  --fo-secondary-text-color: var(--fo-light-color);
+  --fo-border-color: var(--fo-primary-color);
+  --fo-link-color: var(--fo-primary-color);
+  --fo-bg-color: var(--fo-light-color);
+  --fo-radio-color: var(--fo-primary-color);
+  --fo-box-shadow-color: var(--fo-opaque-color);
+  --fo-outline-color: var(--fo-primary-color);
 
   /* General */
   --fo-spacing: 1rem;
   --fo-border-width: 0.0625rem;
   --fo-radio-border-width: calc(var(--fo-border-width) * 2);
-  --fo-border: var(--fo-border-width) solid var(--fo-border-clr);
-  --fo-radio-border: var(--fo-radio-border-width) solid var(--fo-radio-clr);
+  --fo-border: var(--fo-border-width) solid var(--fo-border-color);
+  --fo-radio-border: var(--fo-radio-border-width) solid var(--fo-radio-color);
   --fo-button-radius: 999999px;
   --fo-input-radius: 0.25rem;
   --fo-card-radius: 1.125rem;
   --fo-code-radius: 0.625rem;
-  --fo-box-shadow: 0 2px 4px 0 var(--fo-box-shadow-clr);
-  --fo-outline: 0.125rem solid var(--fo-outline-clr);
+  --fo-box-shadow: 0 2px 6px 0 var(--fo-box-shadow-color);
+  --fo-outline: 0.125rem solid var(--fo-outline-color);
   --fo-body-line-height: 1.5;
   --fo-heading-line-height: 1.2;
 

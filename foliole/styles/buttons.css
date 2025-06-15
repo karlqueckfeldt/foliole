@@ -7,7 +7,7 @@ button:focus-visible {
 .fo-button {
   display: inline-block;
   padding: calc(var(--fo-spacing) / 2) var(--fo-spacing);
-  background-color: var(--fo-bg-clr);
+  background-color: var(--fo-bg-color);
   border: none;
   border-radius: var(--fo-button-radius);
   box-shadow: var(--fo-box-shadow);
@@ -30,27 +30,27 @@ a.fo-button {
 .fo-button-outlined:hover,
 .fo-button-flat:hover,
 .fo-button:hover {
-  background-color: var(--fo-secondary-clr);
+  background-color: var(--fo-secondary-color);
 }
 
 .fo-button-primary {
-  background-color: var(--fo-primary-clr);
-  color: var(--fo-secondary-text-clr);
+  background-color: var(--fo-primary-color);
+  color: var(--fo-secondary-text-color);
 }
 
 .fo-button-primary:hover {
-  background-color: var(--fo-primary-light-clr);
+  background-color: var(--fo-primary-light-color);
 }
 
 .fo-button-secondary,
 a.fo-button[aria-current='page'],
 a.fo-button.fo-link-active {
-  background-color: var(--fo-secondary-clr);
-  border-color: var(--secondary-border-clr);
+  background-color: var(--fo-secondary-color);
+  border-color: var(--secondary-border-color);
 }
 
 .fo-button-secondary:hover {
-  background-color: var(--fo-secondary-light-clr);
+  background-color: var(--fo-secondary-light-color);
 }
 
 .fo-button-outlined {
@@ -59,13 +59,13 @@ a.fo-button.fo-link-active {
 }
 
 .fo-button-warning {
-  background-color: var(--fo-warning-clr);
-  border-color: var(--warning-border-clr);
-  color: var(--fo-secondary-text-clr);
+  background-color: var(--fo-warning-color);
+  border-color: var(--warning-border-color);
+  color: var(--fo-secondary-text-color);
 }
 
 .fo-button-warning:hover {
-  background-color: var(--fo-warning-light-clr);
+  background-color: var(--fo-warning-light-color);
 }
 
 .fo-button-flat {

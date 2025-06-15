@@ -11,6 +11,7 @@
     padding: 0;
     border: none;
     margin-block-start: var(--fo-spacing);
+    border-radius: var(--fo-button-radius);
   }
 
   .main-wrapper {

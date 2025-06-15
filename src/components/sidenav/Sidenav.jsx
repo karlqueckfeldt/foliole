@@ -3,19 +3,59 @@ import logo from '../../assets/foliole-big.svg';
 import './Sidenav.css';
 import { routes } from '../../utilities/routes';
 import crossIcon from '../../assets/cross.svg';
+import { useEffect, useCallback } from 'react';
+import { useLocation } from 'react-router';
 
 function Sidenav() {
-  function closeMenu() {
+  const location = useLocation();
+
+  const closeMenu = useCallback(() => {
     const menu = document.querySelector('.fo-navigation.navigation');
     menu.classList.remove('open');
     menu.setAttribute('inert', '');
-  }
+  }, []);
+
+  useEffect(() => {
+    const menu = document.querySelector('.fo-navigation.navigation');
+
+    function handleClick(event) {
+      if (
+        menu &&
+        menu.classList.contains('open') &&
+        !menu.contains(event.target) &&
+        !event.target.closest('.menu-button')
+      ) {
+        closeMenu();
+      }
+    }
+
+    function handleKeyDown(event) {
+      if (event.key === 'Escape' && menu && menu.classList.contains('open')) {
+        closeMenu();
+      }
+    }
+
+    document.addEventListener('click', handleClick);
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('click', handleClick);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [closeMenu]);
+
+  useEffect(() => {
+    const menu = document.querySelector('.fo-navigation.navigation');
+    if (menu && menu.classList.contains('open')) {
+      closeMenu();
+    }
+  }, [location, closeMenu]);
 
   return (
     <nav className="fo-navigation navigation" id="sideMenu">
       <button
         aria-label="Close"
-        className="menu-button"
+        className="menu-button close"
         onClick={() => closeMenu()}
       >
         <img src={crossIcon} aria-hidden="true" />

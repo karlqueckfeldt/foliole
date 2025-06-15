@@ -4,16 +4,16 @@
   padding: calc(var(--fo-spacing) * 2);
   border-radius: var(--fo-card-radius);
   box-shadow: var(--fo-box-shadow);
-  background-color: var(--fo-bg-clr);
+  background-color: var(--fo-bg-color);
 }
 
 .fo-card-primary {
-  background-color: var(--fo-primary-clr);
-  color: var(--fo-secondary-text-clr);
+  background-color: var(--fo-primary-color);
+  color: var(--fo-secondary-text-color);
 }
 
 .fo-card-secondary {
-  background-color: var(--fo-secondary-clr);
+  background-color: var(--fo-secondary-color);
 }
 
 .fo-card-outlined {
