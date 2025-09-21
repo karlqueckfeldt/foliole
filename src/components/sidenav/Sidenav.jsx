@@ -52,7 +52,7 @@ function Sidenav() {
   }, [location, closeMenu]);
 
   return (
-    <nav className="fo-navigation navigation" id="sideMenu">
+    <nav className="fo-navigation navigation" id="sideMenu" aria-modal="true">
       <button
         aria-label="Close"
         className="menu-button close"
